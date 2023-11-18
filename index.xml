@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Nov 2023 14:27:37 -0500</lastBuildDate><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>localhost:1313/about/</link>
+      <pubDate>Sun, 22 Oct 2023 12:56:23 -0400</pubDate>
+      
+      <guid>localhost:1313/about/</guid>
+      <description>About Portland, ME based software person. Student at the Roux.
+Always down to meet new people especially in Portland, ME. Be in touch! jakesimonds@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>localhost:1313/projects/</link>
+      <pubDate>Sun, 22 Oct 2023 12:56:23 -0400</pubDate>
+      
+      <guid>localhost:1313/projects/</guid>
+      <description>About TBD</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>localhost:1313/posts/first-post/</link>
+      <pubDate>Sun, 22 Oct 2023 12:21:09 -0400</pubDate>
+      
+      <guid>localhost:1313/posts/first-post/</guid>
+      <description>Hello Yup yup bold yup bold ah yeah.</description>
+    </item>
+    
+  </channel>
+</rss>
