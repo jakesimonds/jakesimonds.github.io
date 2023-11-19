@@ -1,0 +1,372 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>How I made this site - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="What it is Made with a framework called &lsquo;Hugo,&rsquo; and specifically using a theme called &lsquo;paper.&rsquo;
+I heard about it on a youtube video. One of the comments, still there on the video as of 11/19/23, says: &ldquo;Hugo is the back-end developer&rsquo;s best friend for making front-ends.&rdquo; That pretty much sold me.
+It took me longer than I thought it would to get what I have today, and even this is less functionality-wise than my original ambitions." />
+  <meta name="author" content="Jake Simonds" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://jakesimonds.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="How I made this site">
+<meta itemprop="description" content="THis is my description"><meta itemprop="datePublished" content="2023-10-22T12:21:09-04:00" />
+<meta itemprop="dateModified" content="2023-10-22T12:21:09-04:00" />
+<meta itemprop="wordCount" content="675">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="How I made this site" />
+<meta property="og:description" content="THis is my description" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakesimonds.github.io/posts/how-i-made-it/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-22T12:21:09-04:00" />
+<meta property="article:modified_time" content="2023-10-22T12:21:09-04:00" />
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How I made this site"/>
+<meta name="twitter:description" content="THis is my description"/>
+
+  
+  
+  
+  <link rel="canonical" href="https://jakesimonds.github.io/posts/how-i-made-it/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://jakesimonds.github.io/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects"
+        >Projects</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/jakesimonds"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/jake-simonds"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">How I made this site</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Oct 22, 2023</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="what-it-is">What it is</h2>
+<p>Made with a framework called &lsquo;Hugo,&rsquo; and specifically using a theme called &lsquo;paper.&rsquo;</p>
+<p>I heard about it on a <a href="https://www.youtube.com/watch?v=0RKpf3rK57I">youtube video</a>. One of the comments, still there on the video as of 11/19/23, says: &ldquo;Hugo is the back-end developer&rsquo;s best friend for making front-ends.&rdquo; That pretty much sold me.</p>
+<p>It took me longer than I thought it would to get what I have today, and even this is less functionality-wise than my original ambitions. I was and sort of still am a little mystified at the relationships between the framework, and the theme, and my configs, and the universe. What&rsquo;s cool is right now I&rsquo;m writing this document in an .md file. Big fan of .md files.</p>
+<p>One weird thing that I did, that I&rsquo;m not sure is best practices but we&rsquo;ll see how it goes, is I basically have one repo that&rsquo;s my larger site, and then inside of that I have two sub-modules that are attached to other repos. One of those sub-modules is just a clone of my theme, &lsquo;paper&rsquo;. I cloned it because I thought I would have to go in there and make some tweaks, which I haven&rsquo;t actually done yet, but at least now I can in the future maybe. And then the other one feels a little weirder. After I&rsquo;m done messing around making my site with hugo, which I can do locally by running &lsquo;hugo server,&rsquo; I &lsquo;quasi-publish&rsquo; a static site with the command &lsquo;hugo,&rsquo; which then puts in a directory &lsquo;public&rsquo; everything needed to make a static site. What I did was connect my &lsquo;jakesimonds.github.io&rsquo; specially-named repo to that &lsquo;public&rsquo; folder. So theoretically to update my site I can 1) make local edits and then probably push an update to that site repo, and then 2
+&lsquo;cd public&rsquo; and then push to &lsquo;jakesimonds.github.io&rsquo;. And then maybe that&rsquo;s it?</p>
+<p>If you&rsquo;re reading this, that&rsquo;s a great sign.</p>
+<p>Happy to chat with anybody similarly using or looking into Hugo, or other frameworks.</p>
+<h2 id="my-needs">My needs</h2>
+<ul>
+<li>Basic professional-ish personal website where I can show projects &amp; stuff</li>
+<li>Reasonably flexible framework that can facilitate web-dev exploratory stuff</li>
+<li>easy to add written content (if I wanna blog or something)</li>
+<li>not a chore to update/make</li>
+</ul>
+<h2 id="what-i-tried-before">What I tried before</h2>
+<h3 id="wix">Wix</h3>
+<p>1,000 years ago I needed a website because I was a &lsquo;creative&rsquo; and everybody I knew had websites all of the sudden so my sister reserved me a domain and I used wix to build a little personal website and it was fine but very much a chore to update &amp; the UI kept upselling me on little things. I still have the domain I think, but I think it&rsquo;s really cool that github does this hosting, and this hopefully is enough for what I wanna do for now.</p>
+<h3 id="who-needs-a-framework">who needs a framework?</h3>
+<p>Earlier this year when I discovered how easy setting up a github-hosted site could be I made a bare-bones, html website. It was fun to mess around with. I made an html table, used chatGPT to draw me a 3D ice cream cone with some JS library. Then I set up an API call (first to this funny <a href="http://numbersapi.com/#42">number facts api</a> which worked locally but then not on github because it was http not https, so then to <a href="https://isevenapi.xyz/">is even</a>), and then used AWS and Heroku (PSA: Not free anymore! Used to have generous free tier, no longer does) to make it so you could click a button, and then an app on heroku would like query AWS, generate a token/temporary-pass-something, and then that would let you into AWS where in an S3 bucket I had a like 30 second audio clip being hosted. It took me all afternoon, I really didn&rsquo;t even learn that much, but it was pretty satisfying after it was done to click the button and then hear my own voice. I also got my first you-owe-Jeff-Bezos-money email:</p>
+<p><img src="/img/aws-email.png" alt="&ldquo;me&rdquo;"></p>
+<h2 id="hopes-for-what-it-can-be">Hopes for what it can be</h2>
+<ul>
+<li>I wanna write some blog-like posts that are <a href="https://www.henrikkarlsson.xyz/p/search-query">search queries</a>.</li>
+<li>I want a place to try weird web-dev stuff</li>
+</ul>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://jakesimonds.github.io/posts/github-annotated/"
+      ><span class="mr-1.5">←</span><span>Github Annotated</span></a
+    >
+    
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://jakesimonds.github.io/"></a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
