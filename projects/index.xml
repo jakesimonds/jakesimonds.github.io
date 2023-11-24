@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>https://jakesimonds.github.io/projects/</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 14:14:27 -0500</lastBuildDate><atom:link href="https://jakesimonds.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auto-Journal</title>
+      <link>https://jakesimonds.github.io/projects/autojournal/</link>
+      <pubDate>Fri, 24 Nov 2023 14:14:27 -0500</pubDate>
+      
+      <guid>https://jakesimonds.github.io/projects/autojournal/</guid>
+      <description>Mostly just giving myself practice writing scripts, trying to automate straightforward &amp;amp; somewhat tedious tasks.
+Was an opportunity to try a little bash (first time), also incorporated an API call to a weather service and another script that queries the local public library for when new books I&amp;rsquo;m interested in might drop (not sure how well that&amp;rsquo;ll work yet&amp;ndash;grabbed those upcoming book titles for testing purposes).
+One kinda nice thing about journalling in a text document vs the cloud: a little harder (though still very possible) to get distracted since you&amp;rsquo;re not directly in the browser.</description>
+    </item>
+    
+  </channel>
+</rss>

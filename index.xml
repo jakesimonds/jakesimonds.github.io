@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2023 14:27:37 -0500</lastBuildDate><atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Auto-Journal</title>
+      <link>https://jakesimonds.github.io/projects/autojournal/</link>
+      <pubDate>Fri, 24 Nov 2023 14:14:27 -0500</pubDate>
+      
+      <guid>https://jakesimonds.github.io/projects/autojournal/</guid>
+      <description>Mostly just giving myself practice writing scripts, trying to automate straightforward &amp;amp; somewhat tedious tasks.
+Was an opportunity to try a little bash (first time), also incorporated an API call to a weather service and another script that queries the local public library for when new books I&amp;rsquo;m interested in might drop (not sure how well that&amp;rsquo;ll work yet&amp;ndash;grabbed those upcoming book titles for testing purposes).
+One kinda nice thing about journalling in a text document vs the cloud: a little harder (though still very possible) to get distracted since you&amp;rsquo;re not directly in the browser.</description>
+    </item>
+    
+    <item>
       <title>Github Annotated</title>
       <link>https://jakesimonds.github.io/posts/github-annotated/</link>
       <pubDate>Sun, 19 Nov 2023 12:21:40 -0500</pubDate>
@@ -29,10 +40,10 @@ Very open to conversation/collaboration, remotely or in person here in Portland,
     
     <item>
       <title>Projects</title>
-      <link>https://jakesimonds.github.io/projects/</link>
+      <link>https://jakesimonds.github.io/projects_/</link>
       <pubDate>Sun, 22 Oct 2023 12:56:23 -0400</pubDate>
       
-      <guid>https://jakesimonds.github.io/projects/</guid>
+      <guid>https://jakesimonds.github.io/projects_/</guid>
       <description>Projects Not built yet. See github for now.</description>
     </item>
     
