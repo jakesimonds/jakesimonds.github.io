@@ -6,7 +6,17 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Dec 2023 18:51:40 -0500</lastBuildDate><atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 17:41:41 -0400</lastBuildDate><atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Hot Takes for Posterity</title>
+      <link>https://jakesimonds.github.io/posts/aihottakes/</link>
+      <pubDate>Sat, 23 Mar 2024 17:41:41 -0400</pubDate>
+      
+      <guid>https://jakesimonds.github.io/posts/aihottakes/</guid>
+      <description>Who am I? I&amp;rsquo;m a software engineer &amp;lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &amp;gt; working at the edge of ChatGPT&amp;rsquo;s abilities).
+Use-Cases I&amp;rsquo;m Not Ashamed Of Acronym hunting Say I&amp;rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&amp;rsquo;t heard of.</description>
+    </item>
+    
     <item>
       <title>2023 Delights and Not So Delightfuls</title>
       <link>https://jakesimonds.github.io/posts/2023/</link>

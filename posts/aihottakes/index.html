@@ -1,0 +1,374 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>AI Hot Takes for Posterity - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Who am I? I&rsquo;m a software engineer &lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &gt; working at the edge of ChatGPT&rsquo;s abilities).
+Use-Cases I&rsquo;m Not Ashamed Of Acronym hunting Say I&rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&rsquo;t heard of." />
+  <meta name="author" content="Jake Simonds" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://jakesimonds.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="AI Hot Takes for Posterity">
+<meta itemprop="description" content="AI Hot Takes recorded for posterity"><meta itemprop="datePublished" content="2024-03-23T17:41:41-04:00" />
+<meta itemprop="dateModified" content="2024-03-23T17:41:41-04:00" />
+<meta itemprop="wordCount" content="734">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="AI Hot Takes for Posterity" />
+<meta property="og:description" content="AI Hot Takes recorded for posterity" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakesimonds.github.io/posts/aihottakes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-23T17:41:41-04:00" />
+<meta property="article:modified_time" content="2024-03-23T17:41:41-04:00" />
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AI Hot Takes for Posterity"/>
+<meta name="twitter:description" content="AI Hot Takes recorded for posterity"/>
+
+  
+  
+  
+  <link rel="canonical" href="https://jakesimonds.github.io/posts/aihottakes/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://jakesimonds.github.io/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects"
+        >Projects</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/jakesimonds"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/jake-simonds"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">AI Hot Takes for Posterity</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Mar 23, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p><img src="/img/chatGPTscreenshot.png" alt="screengrab"></p>
+<h3 id="who-am-i">Who am I?</h3>
+<p>I&rsquo;m a software engineer &lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &gt; working at the edge of ChatGPT&rsquo;s abilities).</p>
+<h2 id="use-cases-im-not-ashamed-of">Use-Cases I&rsquo;m Not Ashamed Of</h2>
+<h3 id="acronym-hunting">Acronym hunting</h3>
+<p>Say I&rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&rsquo;t heard of. ctrl + c / ctrl + v -&gt; ChatGPT! Since the context is already embedded in whatever I&rsquo;m giving it, my anecdotal experience is that it does pretty decently defining terms (and I avoid the annoying thing of googling some obscure acronym and getting back some Realtor&rsquo;s Association in Nevada that shares the acronym I&rsquo;m hunting for).</p>
+<h3 id="fix-the-syntax">&lsquo;fix the syntax&rsquo;</h3>
+<p>Early in projects, when I hit a wall, I give it a few lines of code that aren&rsquo;t working and say &lsquo;fix the syntax&rsquo;. When I&rsquo;m really brave, I even go back to my broken code, and add pseudocode that I know won&rsquo;t work but I also know is describing exactly what I want to have happen. The more specific the better.</p>
+<p>A while ago, I realized that this exercise was also just kind of &lsquo;rubber ducking&rsquo; with the LLM, and having to explain myself to &lsquo;it,&rsquo; while weird as hell, was probably kind of useful on its own anyways.</p>
+<h2 id="hot-takes">Hot Takes</h2>
+<h3 id="her">Her?</h3>
+<p>My mental model of chatGPT is that I&rsquo;m talking to the most boring person I&rsquo;ve ever met in my life&hellip;but it just so happens that they&rsquo;ve read every book ever written and kinda know everything?</p>
+<p>And so when I hear people predict a coming wave of AI boyfriends and girlfriends and platonic friends and all that&hellip;I&rsquo;m not buying it at the moment or in any future I can imagine iterating straightforwardly from the technology we have today. ChatGPT isn&rsquo;t &lsquo;Her&rsquo; as in Scarlett Johannson from the 2013 movie, it&rsquo;s &lsquo;Her?&rsquo; as in that (pretty mean) joke from <em>Arrested Development</em>. The audio quality of ChatGPT specifically is quite good. The latency when you have a conversation with it is equally impressive IMO. But there&rsquo;s still just zero personality there.</p>
+<h2 id="your-chatgpt-conversations-are-not-interesting-to-others">Your ChatGPT conversations are not interesting to others</h2>
+<p>I, too, was riveted when Kevin Roose had that bizarre chat with Sydney/Bing and it ran in the NYTimes. But pretty much ever since that day, whenever anyone, anywhere, has told me (or worse, read to me out-loud, verbatim) about this hilarious or whatever thing chatGPT told them&hellip;I wanna tear my own eyes out. Reading something chatGPT wrote out loud is never funny, or interesting. And it&rsquo;s happening in the wild!</p>
+<h2 id="other-hot-takes-for-posterity">Other hot takes for posterity</h2>
+<ul>
+<li>Idea I keep coming back to when I think about/use these tools is &lsquo;blurry jpeg of the web&rsquo;: <a href="https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web">https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web</a></li>
+<li>A year-plus ago using chatGPT felt like being 20 minutes into an acid trip. It has not felt anything like that in a very long time, and it&rsquo;s honestly hard to even imagine what could move the needle in that way again, and it&rsquo;s super easy too to forget just how crazy all this still is.</li>
+<li>I love Yann Lecunn.</li>
+<li>If I were thinking about &lsquo;getting-into-tech&rsquo; today&hellip;I think the gulf of time that I&rsquo;d have to cross before I could do literally anything that chatGPT couldn&rsquo;t do (thinking about the year-plus of python-Turtle drawings and implementing a stack in C and tearing my hair out over just the most basic OOP concepts&hellip;) in five seconds might be a dealbreaker. It would certainly be humbling.</li>
+<li>A common argument against doomerism: these tools will free us all up to do the &lsquo;real work&rsquo; &amp; be &lsquo;creative&rsquo; and &lsquo;inventive&rsquo; because &lsquo;AI can&rsquo;t make new knowledge&rsquo;. All reasonable points. But I worry that a lot of what we do, and a lot of what we get paid to do, is not &lsquo;creative&rsquo; or &lsquo;inventive&rsquo; at all. I used to act in plays and make weird comedy shows with my friends. Very LLM-resistant &amp; not at all valued by the world. So when an LLM can write all your boilerplate, and stitch this-to-that and that-to-this, and human developers are freed up to do what the models can&rsquo;t do&hellip;what are you, and every other developer you know, going to do that is both 1: inventive enough that an LLM couldn&rsquo;t possibly have done it and 2: worth anything in this cruel &amp; boring world?</li>
+</ul>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://jakesimonds.github.io/posts/2023/"
+      ><span>2023 Delights and Not So Delightfuls</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="https://jakesimonds.github.io/"></a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
