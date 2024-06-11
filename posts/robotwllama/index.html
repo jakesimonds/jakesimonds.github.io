@@ -1,0 +1,370 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Dash Robot with Llama - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself." />
+  <meta name="author" content="Jake Simonds" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://jakesimonds.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Dash Robot with Llama">
+<meta itemprop="description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself."><meta itemprop="datePublished" content="2024-06-11T16:09:52-04:00" />
+<meta itemprop="dateModified" content="2024-06-11T16:09:52-04:00" />
+<meta itemprop="wordCount" content="480">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="Dash Robot with Llama" />
+<meta property="og:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakesimonds.github.io/posts/robotwllama/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-11T16:09:52-04:00" />
+<meta property="article:modified_time" content="2024-06-11T16:09:52-04:00" />
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Dash Robot with Llama"/>
+<meta name="twitter:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself."/>
+
+  
+  
+  
+  <link rel="canonical" href="https://jakesimonds.github.io/posts/robotwllama/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://jakesimonds.github.io/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects"
+        >Projects</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/jakesimonds"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/jake-simonds"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Dash Robot with Llama</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Jun 11, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="what-is-it">What is it?</h2>
+<p>Watching the short demo video (<a href="https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu">https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu</a>) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.</p>
+<p>You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn&rsquo;t do that either just out of laziness.</p>
+<h3 id="enter-lllama3-8b--ollama">Enter Lllama3 8b &amp; Ollama</h3>
+<p>Then some coworkers got me up to speed on open source LLMs. Specifically how far the ecosystem has come in the year-ish since I last kinda looked into it all. And I watched a few videos on Ollama, and I pulled down the models myself onto my mac-chip hardware, and it all just kinda&hellip;worked. So I thought, &lsquo;I can give Ollama the robot API, and then have it translate natural language into valid commands&rsquo;. And that&rsquo;s basically what&rsquo;s going on.</p>
+<h2 id="how-it-works">How it works</h2>
+<p><img src="/img/robotSiteDiagram.png" alt="&ldquo;diagram&rdquo;"></p>
+<p>I get into this a bit in the video as well, but to summarize quickly:</p>
+<ul>
+<li>the website is just your basic website, React on the front Express in the back.</li>
+<li>The backend can talk to a linux machine which hosts a Flask app, which is basically a wrapper (that listens) around the robot API (MorseAPI) I found online. So you press &lsquo;Forward&rsquo; on the website, the Express backend can send a request to the Flask app &ldquo;hey, make the robot go forward&rdquo; and it sends that via bluetooth along to the robot</li>
+<li>(Q: &ldquo;Why not have it all on one machine/program?&rdquo; A: Dependency issues &amp; my own inexperience)</li>
+<li>The backend can also talk to a FastAPI server/program, which hosts Ollama hosting Llama3. In that workflow, the backend takes a command string (natural language) from the user, uses Llama3 to &lsquo;translate&rsquo; it into a valid API call, and then sends that (or those) valid api calls to the robot who performs the actions</li>
+</ul>
+<h2 id="whats-next">What&rsquo;s next</h2>
+<p>This project has been fun for learning how to use Ollama with Llama 7B locally, and I think I&rsquo;d like to potentially find a next project that can utilize that in a more digitally native way, so I&rsquo;m not stuck with another project that&rsquo;s daisy-chained and messy and a chore to set up just to work on.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://jakesimonds.github.io/posts/xzbackdoor/"
+      ><span>First Thoughts on XZ Backdoor Exploits</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="https://jakesimonds.github.io/"></a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
