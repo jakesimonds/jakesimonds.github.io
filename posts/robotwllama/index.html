@@ -279,24 +279,10 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
       class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
     >
       
-
 <article>
-  <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">Dash Robot with Llama</h1>
-
-    
-    <div class="text-sm antialiased opacity-60">
-      
-      <time>Jun 11, 2024</time>
-      
-      
-      
-      
-    </div>
-    
-  </header>
-
-  <section><h2 id="what-is-it">What is it?</h2>
+    <h1>Dash Robot with Llama</h1>
+    <time>June 11, 2024</time>
+    <h2 id="what-is-it">What is it?</h2>
 <p>Watching the short demo video (<a href="https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu">https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu</a>) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.</p>
 <p>You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn&rsquo;t do that either just out of laziness.</p>
 <h3 id="enter-lllama3-8b--ollama">Enter Lllama3 8b &amp; Ollama</h3>
@@ -312,38 +298,11 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
 </ul>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <p>This project has been fun for learning how to use Ollama with Llama 7B locally, and I think I&rsquo;d like to potentially find a next project that can utilize that in a more digitally native way, so I&rsquo;m not stuck with another project that&rsquo;s daisy-chained and messy and a chore to set up just to work on.</p>
-</section>
 
-  
-  
-
-  
-  
-  
-  
-  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
-    
-    
-    <a
-      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://jakesimonds.github.io/posts/xzbackdoor/"
-      ><span>First Thoughts on XZ Backdoor Exploits</span><span class="ml-1.5">→</span></a
-    >
-    
-  </nav>
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
 </article>
 
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     </main>
 

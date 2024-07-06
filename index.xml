@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2023 14:27:37 -0500</lastBuildDate><atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Test</title>
+      <link>https://jakesimonds.github.io/posts/test/</link>
+      <pubDate>Fri, 05 Jul 2024 11:21:56 -0400</pubDate>
+      
+      <guid>https://jakesimonds.github.io/posts/test/</guid>
+      <description>hello hello will this work?
+nobody knows! Submit      new Vue({ el: &#39;#app&#39;, data: { inputText: &#39;&#39;, result: {} }, computed: { formattedResult() { if (!this.result.length) return &#39;&#39;; try { console.log(&#39;Result array:&#39;, this.result); return this.result.map(item = `${item}
+`).join(&#39;&#39;); } catch (e) { console.error(&#39;Error processing result:&#39;, e); return &#39;Invalid result format&#39;; } } }, methods: { async getText() { try { const response = await axios.post(&#39;https://54.145.73.101:8000/query&#39;, { text: this.</description>
+    </item>
+    
+    <item>
       <title>Dash Robot with Llama</title>
       <link>https://jakesimonds.github.io/posts/robotwllama/</link>
       <pubDate>Tue, 11 Jun 2024 16:09:52 -0400</pubDate>

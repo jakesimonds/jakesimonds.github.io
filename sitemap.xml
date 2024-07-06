@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jakesimonds.github.io/posts/robotwllama/</loc>
-    <lastmod>2024-06-11T16:09:52-04:00</lastmod>
-  </url><url>
     <loc>https://jakesimonds.github.io/posts/</loc>
+    <lastmod>2024-07-05T11:21:56-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/test/</loc>
+    <lastmod>2024-07-05T11:21:56-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/robotwllama/</loc>
     <lastmod>2024-06-11T16:09:52-04:00</lastmod>
   </url><url>
     <loc>https://jakesimonds.github.io/posts/xzbackdoor/</loc>
