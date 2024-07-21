@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2023 14:27:37 -0500</lastBuildDate><atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>LatentHomer</title>
+      <link>https://jakesimonds.github.io/latenthomer/</link>
+      <pubDate>Sat, 20 Jul 2024 12:05:22 -0400</pubDate>
+      
+      <guid>https://jakesimonds.github.io/latenthomer/</guid>
+      <description>hello hello</description>
+    </item>
+    
+    <item>
       <title>Dash Robot with Llama</title>
       <link>https://jakesimonds.github.io/posts/robotwllama/</link>
       <pubDate>Tue, 11 Jun 2024 16:09:52 -0400</pubDate>
@@ -91,12 +100,13 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
     </item>
     
     <item>
-      <title>About</title>
+      <title>Contact</title>
       <link>https://jakesimonds.github.io/about/</link>
       <pubDate>Sun, 22 Oct 2023 12:56:23 -0400</pubDate>
       
       <guid>https://jakesimonds.github.io/about/</guid>
-      <description>About Portland, ME-based software person. Can juggle up to five objects. CS Masters student at Northeastern (Roux Institute).
+      <description>calendly link
+Portland, ME-based software person. Can juggle up to five objects. CS Masters student at Northeastern (Roux Institute).
 You can find some tutorials I made exploring images, latent space &amp;amp; jpg compression on youtube. I&amp;rsquo;m on bluesky and mastodon and other socials too. If you have a social internet thing that doesn&amp;rsquo;t suck I&amp;rsquo;d love to hear about it!
 Very open to conversation/collaboration, remotely or in person here in Portland, ME.</description>
     </item>
