@@ -122,7 +122,7 @@
   <meta itemprop="name" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
 <meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."><meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00" />
 <meta itemprop="dateModified" content="2024-08-14T23:20:20-04:00" />
-<meta itemprop="wordCount" content="658">
+<meta itemprop="wordCount" content="662">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters" />
@@ -290,7 +290,7 @@
 <p><img src="/img/latentHomer.png" alt="&ldquo;diagram&rdquo;"></p>
 <p><a href="http://latenthomer.com">http://latenthomer.com</a> is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;<em>bad houseguest</em>&rsquo;, <em>&lsquo;classic personality hire&rsquo;</em>, <em>&lsquo;silly elderly man&rsquo;</em>&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</p>
 <h2 id="how-id-explain-embeddings-to-myself-six-months-ago">How I&rsquo;d explain embeddings to myself six months ago</h2>
-<p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people you for things.  One day somebody comes in and asks if you have a &lsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
+<p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people come in and ask you for things.  One day somebody comes in and asks if you have a &lsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
 <p>Suddenly you have this idea. You close the store for the afternoon, tape some butcher paper to the wall of your warehouse, and draw a HUGE two-dimensional graph. On the <strong>x-axis</strong> you label, <strong>Weight</strong>. <strong>Y-axis - Price</strong>. You then go through your entire inventory, weighing and noting the price of everything you have for sale. You end up with a graph that looks something like this:</p>
 <p><img src="/img/fake_graph.png" alt="&ldquo;fake graph&rdquo;"></p>
 <p><em>Sorry about the ecletic items, forgot about the fictional scenario while making the graph. Also placement of items is inexact &amp; not important &amp; if you&rsquo;re confused right now look at the the blue, green and yellow dots. Which one is&hellip;a: Bag of potatoes, b: used scooter, c: laptop</em></p>
