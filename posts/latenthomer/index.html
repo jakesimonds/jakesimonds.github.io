@@ -1,0 +1,346 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Latent Homer: Toy Semantic Search with Simpsons Characters - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
+  <meta name="author" content="Jake Simonds" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://jakesimonds.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
+<meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."><meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00" />
+<meta itemprop="dateModified" content="2024-08-14T23:20:20-04:00" />
+<meta itemprop="wordCount" content="755">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters" />
+<meta property="og:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jakesimonds.github.io/posts/latenthomer/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-14T23:20:20-04:00" />
+<meta property="article:modified_time" content="2024-08-14T23:20:20-04:00" />
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters"/>
+<meta name="twitter:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."/>
+
+  
+  
+  
+  <link rel="canonical" href="https://jakesimonds.github.io/posts/latenthomer/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://jakesimonds.github.io/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects"
+        >Projects</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="https://calendly.com/jakesimonds/30min"
+        >Calendly</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/jakesimonds"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/jake-simonds"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+<article>
+    <h1>Latent Homer: Toy Semantic Search with Simpsons Characters</h1>
+    <time>August 14, 2024</time>
+    <h2 id="embeddings-are-dope">Embeddings are Dope</h2>
+<p><img src="/img/latentHomer.png" alt="&ldquo;diagram&rdquo;"></p>
+<p><a href="http://latenthomer.com">http://latenthomer.com</a> is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</p>
+<h2 id="how-id-explain-embeddings-to-myself-six-months-ago">How I&rsquo;d explain embeddings to myself six months ago</h2>
+<p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people you for things.  One day somebody comes in and asks if you have a &lsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
+<p>Suddenly you have this idea. You close the store for the afternoon, tape some butcher paper to the wall of your warehouse, and draw a HUGE two-dimensional graph. On the x-axis you label, <strong>Weight</strong>. Y-axis, <strong>Price</strong>. You then go through your entire inventory, weighing and noting the price of everything you have for sale. You end up with a graph that looks something like this:</p>
+<p><img src="/img/fake_graph.png" alt="&ldquo;fake graph&rdquo;">
+<img src="/img/Camera.jpg" alt="&ldquo;case&rdquo;">
+I forgot about the pretend story as I was making this graph, but imagine you&rsquo;re a store that sells these things.</p>
+<h3 id="quiz-yourself">Quiz yourself:</h3>
+<p>The blue, green and yellow dots correspond to&hellip;</p>
+<p>a: Bag of potatoes
+b: used scooter
+c: laptop</p>
+<p>The next day, somebody comes in and asks for a Ham Sandwich (you&rsquo;re also a restaurant). You know you don&rsquo;t have it, but with this new system in place you ask them: how much would this &lsquo;Ham Sandwich&rsquo; weigh and cost? You then take their answers, go over to the big board, and mark the spot. Lo and behold, very close to that spot there&rsquo;s a dot for &lsquo;Turkey Panini&rsquo;. &lsquo;Turkey Panini&rsquo; and &lsquo;Ham Sandwich&rsquo; are very different phrases, and no lexicographical search in the world would have gotten you close to this result, but but the cost-weight metrics captures something similar about them. Pretty cool!</p>
+<p>Now just keep adding dimensions measuring different meaningful factors until you&rsquo;ve got 768 (or 1024 or 3076) &amp; you&rsquo;re in business!</p>
+<h2 id="my-odyssey">My Odyssey</h2>
+<p><img src="/img/old_latent_homer.png" alt="&ldquo;screenshot&rdquo;"></p>
+<p>Embeddings are so easy that the hard part of all this was everything else. Won&rsquo;t get too into detail, but a couple things I learned that might be relevant to anyone kicking the tires on things like this:</p>
+<h4 id="embedding-model-quality-varies--will-depend-on-your-use-case">Embedding model quality varies &amp; will depend on your use-case</h4>
+<p>I&rsquo;m using OpenAI-large embeddings for my website because 1) my scale is small enough that I don&rsquo;t care about the overhead of their size (3072, other ones I experimented with maxed out at 1024), 2) they&rsquo;re good embeddings &amp; 3) they&rsquo;re cheap &amp; the API was easy.</p>
+<p>I also experimented (<a href="https://github.com/jakesimonds/Simpsons-react/tree/openAI/tests">https://github.com/jakesimonds/Simpsons-react/tree/openAI/tests</a>) with open embedding models hosted on my local macbook. The best of these were nearly as good as openAI-large, and a lot smaller.</p>
+<h4 id="adjectives-served-me-well">Adjectives served me well</h4>
+<p>When I first was working on this project I thought I&rsquo;d have to scrape a Simpsons wiki for data. Then I decided to just ask chatGPT to make the data for me. And it did. And that worked, but like not as well as I hoped. So then I asked chatGPT again, and I told it my use-case &amp; specifically asked for descriptive strings that would make good embeddings and I got results like this:
+<code>Principal Skinner: Authority, strict, school principal, Vietnam veteran, insecure, Seymour, Bart, Homer, disciplined, rigid, dedicated.</code>
+which then, this was early enough that I don&rsquo;t have any benchmarks for it but it was night-and-day in terms of quality improvement on getting sensible matches.</p>
+<h4 id="optimizing-queries-for-retrieval-with-llama31-was-promising-but-got-complicated-fast">Optimizing queries for retrieval with Llama3.1 was promising but got complicated fast</h4>
+<p>I gave Llama3.1 a system prompt that it was a PromptImprover that would get a string and return an optimized string specifically for matching (kind of like how Dalle will turn your &lsquo;painting of the night sky&rsquo; into a more adjective-rich longer description that it actually then gives the model). This kind of worked, but also missed frequently enough that for my informal benchmarks I didn&rsquo;t improve anything.</p>
+<p>What worked better was a simpler Llama3.1 prompt where I basically told it, if you think you know who the user is describing say so (&amp; then Llama&rsquo;s guess gets concatenated to the query). That actually did improve my informal benchmarks but is wicked wicked slow.</p>
+
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="https://jakesimonds.github.io/"></a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
