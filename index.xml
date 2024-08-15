@@ -13,7 +13,7 @@
       <pubDate>Wed, 14 Aug 2024 23:20:20 -0400</pubDate>
       
       <guid>https://jakesimonds.github.io/posts/latenthomer/</guid>
-      <description>Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;earthy businessperson&amp;rsquo; or &amp;lsquo;silly elderly man&amp;rsquo;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</description>
+      <description>Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;bad houseguest&amp;rsquo;, &amp;lsquo;classic personality hire&amp;rsquo;, &amp;lsquo;silly elderly man&amp;rsquo;&amp;hellip;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</description>
     </item>
     
     <item>

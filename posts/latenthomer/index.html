@@ -59,7 +59,7 @@
   
   
   
-  <meta name="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
+  <meta name="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
   <meta name="author" content="Jake Simonds" />
   
 
@@ -120,13 +120,13 @@
   
   
   <meta itemprop="name" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
-<meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."><meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00" />
+<meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."><meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00" />
 <meta itemprop="dateModified" content="2024-08-14T23:20:20-04:00" />
-<meta itemprop="wordCount" content="755">
+<meta itemprop="wordCount" content="658">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters" />
-<meta property="og:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
+<meta property="og:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jakesimonds.github.io/posts/latenthomer/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-08-14T23:20:20-04:00" />
@@ -136,7 +136,7 @@
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters"/>
-<meta name="twitter:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."/>
+<meta name="twitter:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."/>
 
   
   
@@ -288,33 +288,27 @@
     <time>August 14, 2024</time>
     <h2 id="embeddings-are-dope">Embeddings are Dope</h2>
 <p><img src="/img/latentHomer.png" alt="&ldquo;diagram&rdquo;"></p>
-<p><a href="http://latenthomer.com">http://latenthomer.com</a> is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;earthy businessperson&rsquo; or &lsquo;silly elderly man&rsquo;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</p>
+<p><a href="http://latenthomer.com">http://latenthomer.com</a> is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;<em>bad houseguest</em>&rsquo;, <em>&lsquo;classic personality hire&rsquo;</em>, <em>&lsquo;silly elderly man&rsquo;</em>&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</p>
 <h2 id="how-id-explain-embeddings-to-myself-six-months-ago">How I&rsquo;d explain embeddings to myself six months ago</h2>
 <p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people you for things.  One day somebody comes in and asks if you have a &lsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
-<p>Suddenly you have this idea. You close the store for the afternoon, tape some butcher paper to the wall of your warehouse, and draw a HUGE two-dimensional graph. On the x-axis you label, <strong>Weight</strong>. Y-axis, <strong>Price</strong>. You then go through your entire inventory, weighing and noting the price of everything you have for sale. You end up with a graph that looks something like this:</p>
-<p><img src="/img/fake_graph.png" alt="&ldquo;fake graph&rdquo;">
-<img src="/img/Camera.jpg" alt="&ldquo;case&rdquo;">
-I forgot about the pretend story as I was making this graph, but imagine you&rsquo;re a store that sells these things.</p>
-<h3 id="quiz-yourself">Quiz yourself:</h3>
-<p>The blue, green and yellow dots correspond to&hellip;</p>
-<p>a: Bag of potatoes
-b: used scooter
-c: laptop</p>
+<p>Suddenly you have this idea. You close the store for the afternoon, tape some butcher paper to the wall of your warehouse, and draw a HUGE two-dimensional graph. On the <strong>x-axis</strong> you label, <strong>Weight</strong>. <strong>Y-axis - Price</strong>. You then go through your entire inventory, weighing and noting the price of everything you have for sale. You end up with a graph that looks something like this:</p>
+<p><img src="/img/fake_graph.png" alt="&ldquo;fake graph&rdquo;"></p>
+<p><em>Sorry about the ecletic items, forgot about the fictional scenario while making the graph. Also placement of items is inexact &amp; not important &amp; if you&rsquo;re confused right now look at the the blue, green and yellow dots. Which one is&hellip;a: Bag of potatoes, b: used scooter, c: laptop</em></p>
 <p>The next day, somebody comes in and asks for a Ham Sandwich (you&rsquo;re also a restaurant). You know you don&rsquo;t have it, but with this new system in place you ask them: how much would this &lsquo;Ham Sandwich&rsquo; weigh and cost? You then take their answers, go over to the big board, and mark the spot. Lo and behold, very close to that spot there&rsquo;s a dot for &lsquo;Turkey Panini&rsquo;. &lsquo;Turkey Panini&rsquo; and &lsquo;Ham Sandwich&rsquo; are very different phrases, and no lexicographical search in the world would have gotten you close to this result, but but the cost-weight metrics captures something similar about them. Pretty cool!</p>
 <p>Now just keep adding dimensions measuring different meaningful factors until you&rsquo;ve got 768 (or 1024 or 3076) &amp; you&rsquo;re in business!</p>
 <h2 id="my-odyssey">My Odyssey</h2>
 <p><img src="/img/old_latent_homer.png" alt="&ldquo;screenshot&rdquo;"></p>
-<p>Embeddings are so easy that the hard part of all this was everything else. Won&rsquo;t get too into detail, but a couple things I learned that might be relevant to anyone kicking the tires on things like this:</p>
+<p><em>Embeddings are so easy that the hard part of this project was everything else.</em></p>
+<h3 id="couple-quick-things-i-learned">couple quick Things I Learned</h3>
 <h4 id="embedding-model-quality-varies--will-depend-on-your-use-case">Embedding model quality varies &amp; will depend on your use-case</h4>
 <p>I&rsquo;m using OpenAI-large embeddings for my website because 1) my scale is small enough that I don&rsquo;t care about the overhead of their size (3072, other ones I experimented with maxed out at 1024), 2) they&rsquo;re good embeddings &amp; 3) they&rsquo;re cheap &amp; the API was easy.</p>
 <p>I also experimented (<a href="https://github.com/jakesimonds/Simpsons-react/tree/openAI/tests">https://github.com/jakesimonds/Simpsons-react/tree/openAI/tests</a>) with open embedding models hosted on my local macbook. The best of these were nearly as good as openAI-large, and a lot smaller.</p>
 <h4 id="adjectives-served-me-well">Adjectives served me well</h4>
-<p>When I first was working on this project I thought I&rsquo;d have to scrape a Simpsons wiki for data. Then I decided to just ask chatGPT to make the data for me. And it did. And that worked, but like not as well as I hoped. So then I asked chatGPT again, and I told it my use-case &amp; specifically asked for descriptive strings that would make good embeddings and I got results like this:
-<code>Principal Skinner: Authority, strict, school principal, Vietnam veteran, insecure, Seymour, Bart, Homer, disciplined, rigid, dedicated.</code>
-which then, this was early enough that I don&rsquo;t have any benchmarks for it but it was night-and-day in terms of quality improvement on getting sensible matches.</p>
-<h4 id="optimizing-queries-for-retrieval-with-llama31-was-promising-but-got-complicated-fast">Optimizing queries for retrieval with Llama3.1 was promising but got complicated fast</h4>
-<p>I gave Llama3.1 a system prompt that it was a PromptImprover that would get a string and return an optimized string specifically for matching (kind of like how Dalle will turn your &lsquo;painting of the night sky&rsquo; into a more adjective-rich longer description that it actually then gives the model). This kind of worked, but also missed frequently enough that for my informal benchmarks I didn&rsquo;t improve anything.</p>
-<p>What worked better was a simpler Llama3.1 prompt where I basically told it, if you think you know who the user is describing say so (&amp; then Llama&rsquo;s guess gets concatenated to the query). That actually did improve my informal benchmarks but is wicked wicked slow.</p>
+<p>When I first was working on this project I thought I&rsquo;d have to scrape a Simpsons wiki for data. Then I decided to just ask chatGPT to make the data for me. And it did. And that worked, but like not as well as I hoped. The descriptive strings it gave me were something along the lines of:</p>
+<p><code>Principal Skinner: Principal Skinner is the Principal of Springfield Elementary, He has Vietnam War flashbacks, lives with his mother, often has conflicts with Bart Simpson, and the Superintendent (when the superintendent visits, things often go wrong</code></p>
+<p>It occurred to me that a low-hanging fruit might be these descriptions, so then I asked chatGPT again&ndash;I told it my use-case &amp; specifically asked for descriptive strings that would make good embeddings and I got results like this:</p>
+<p><code>Principal Skinner: Authority, strict, school principal, Vietnam veteran, insecure, Seymour, Bart, Homer, disciplined, rigid, dedicated.</code></p>
+<p>That made a huge-huge-huge difference.</p>
 
 </article>
 
