@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 07 Jan 2025 14:27:46 -0600</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2024 Delights and Not So Delightfulllllls</title>
+      <title>2024 Delights and Not So Delightfuls</title>
       <link>https://jakesimonds.github.io/posts/2024/</link>
       <pubDate>Tue, 07 Jan 2025 14:27:46 -0600</pubDate>
       <guid>https://jakesimonds.github.io/posts/2024/</guid>
-      <description>&lt;h2 id=&#34;delights&#34;&gt;Delights&lt;/h2&gt;&#xA;&lt;h3 id=&#34;synthesizers&#34;&gt;Synthesizers&lt;/h3&gt;&#xA;&lt;p&gt;Yeah. Hello world. DUMMY CHANGE!!!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;delights&#34;&gt;Delights&lt;/h2&gt;&#xA;&lt;p&gt;1:&#xA;Synthesizers&lt;/p&gt;&#xA;&lt;p&gt;2:&#xA;Cosine Similarity&lt;/p&gt;&#xA;&lt;p&gt;3:&#xA;Walks to South Portland Goodwill&lt;/p&gt;&#xA;&lt;p&gt;4:&#xA;Breadboards&lt;/p&gt;&#xA;&lt;p&gt;5:&#xA;Running&lt;/p&gt;&#xA;&lt;p&gt;6:&#xA;Ollama + llama3 + telling it to return json&lt;/p&gt;&#xA;&lt;p&gt;7:&#xA;Overnight computing&lt;/p&gt;&#xA;&lt;h2 id=&#34;not-so-delightfuls&#34;&gt;Not So Delightfuls&lt;/h2&gt;&#xA;&lt;p&gt;1:&#xA;Linux on personal laptop just &amp;hellip; completely hard crashed on me &amp;amp; I felt stupid &amp;amp; lost some stuff&lt;/p&gt;&#xA;&lt;p&gt;2:&#xA;Dependency creep on robot personal project (at its peak I needed 2 laptops &amp;amp; a rasperry pi &amp;amp; some peripherals &amp;amp; all of them talking to each other over a local network, all that just to start working on the dang thing &amp;amp; like if memory serves a a few shell scripts on a couple of the machines too. Bleh)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latent Homer: Toy Semantic Search with Simpsons Characters</title>
