@@ -36,10 +36,15 @@
 
 
 
+
+
+
+
 <html
   class="not-ready lg:text-base"
   style="--bg: #faf8f1"
   lang="en-us"
+  dir="ltr"
 >
   <head>
   <meta charset="utf-8" />
@@ -59,7 +64,8 @@
   
   
   
-  <meta name="description" content="Mostly just giving myself practice writing scripts, trying to automate straightforward &amp; somewhat tedious tasks.
+  <meta name="description" content="
+Mostly just giving myself practice writing scripts, trying to automate straightforward &amp; somewhat tedious tasks.
 Was an opportunity to try a little bash (first time), also incorporated an API call to a weather service and another script that queries the local public library for when new books I&rsquo;m interested in might drop (not sure how well that&rsquo;ll work yet&ndash;grabbed those upcoming book titles for testing purposes).
 One kinda nice thing about journalling in a text document vs the cloud: a little harder (though still very possible) to get distracted since you&rsquo;re not directly in the browser." />
   <meta name="author" content="Jake Simonds" />
@@ -71,28 +77,28 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="#ZgotmplZ" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
 
   
   
   
   
-  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  <link rel="preload" as="image" href="https://gravatar.com/jakesimonds" />
   
   
 
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
   
 
@@ -100,7 +106,7 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
   
   <script
     defer
-    src="https://jakesimonds.github.io/highlight.min.js"
+    src="#ZgotmplZ"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -110,63 +116,69 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
   
 
   
-  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+  <link
+    rel="icon"
+    href="#ZgotmplZ"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="#ZgotmplZ"
+  />
 
   
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.139.0">
 
+  
   
   
   
   
   
   <meta itemprop="name" content="Auto-Journal">
-<meta itemprop="description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks"><meta itemprop="datePublished" content="2023-11-24T14:14:27-05:00" />
-<meta itemprop="dateModified" content="2023-11-24T14:14:27-05:00" />
-<meta itemprop="wordCount" content="96">
-<meta itemprop="keywords" content="" />
+  <meta itemprop="description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks">
+  <meta itemprop="datePublished" content="2023-11-24T14:14:27-05:00">
+  <meta itemprop="dateModified" content="2023-11-24T14:14:27-05:00">
+  <meta itemprop="wordCount" content="96">
   
-  <meta property="og:title" content="Auto-Journal" />
-<meta property="og:description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://jakesimonds.github.io/projects/autojournal/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2023-11-24T14:14:27-05:00" />
-<meta property="article:modified_time" content="2023-11-24T14:14:27-05:00" />
-
-
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Auto-Journal"/>
-<meta name="twitter:description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks"/>
+  <meta property="og:url" content="localhost:1313projects/autojournal/">
+  <meta property="og:title" content="Auto-Journal">
+  <meta property="og:description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2023-11-24T14:14:27-05:00">
+    <meta property="article:modified_time" content="2023-11-24T14:14:27-05:00">
 
   
   
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Auto-Journal">
+  <meta name="twitter:description" content="Simple script digital journalling &amp; potential framework for other daily-ish tasks">
+
   
-  <link rel="canonical" href="https://jakesimonds.github.io/projects/autojournal/" />
+  
+
+  
+  <link rel="canonical" href="#ZgotmplZ" />
   
   
 </head>
 
   <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a
-      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="https://jakesimonds.github.io/"
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="#ZgotmplZ"
       ></a
     >
     <div
-      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
       role="button"
       aria-label="Dark"
     ></div>
   </div>
 
-  
-
   <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
     role="button"
     aria-label="Menu"
   ></div>
@@ -221,30 +233,24 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
   >
     
     
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/"
         >Home</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/projects"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects/"
         >Projects</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="https://calendly.com/jakesimonds/30min"
-        >Calendly</a
       >
       
     </nav>
@@ -252,11 +258,11 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
 
     
     <nav
-      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
     >
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./github.svg)"
         href="https://github.com/jakesimonds"
         target="_blank"
@@ -266,7 +272,7 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
       </a>
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./linkedin.svg)"
         href="https://linkedin.com/in/jake-simonds"
         target="_blank"
@@ -282,7 +288,7 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
 
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
     >
       
 <article>
@@ -301,21 +307,23 @@ One kinda nice thing about journalling in a text document vs the cloud: a little
     </main>
 
     <footer
-  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
 >
   <div class="mr-auto">
-    &copy; 2024
-    <a class="link" href="https://jakesimonds.github.io/"></a>
+  
+    &copy; 2025
+    <a class="link" href="#ZgotmplZ"></a>
+  
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >Powered by Hugo️️</a
+    >powered by hugo️️</a
   >️
   <a
     class="link"
     href="https://github.com/nanxiaobei/hugo-paper"
     rel="noopener"
     target="_blank"
-    >✎ Paper</a
+    >hugo-paper</a
   >
 </footer>
 

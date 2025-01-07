@@ -2,102 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>https://jakesimonds.github.io/posts/</link>
+    <link>localhost:1313posts/</link>
     <description>Recent content in Posts on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 23:20:20 -0400</lastBuildDate><atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 14:27:46 -0600</lastBuildDate>
+    <atom:link href="localhost:1313posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Delights and Not So Delightfuls</title>
+      <link>localhost:1313posts/2024/</link>
+      <pubDate>Tue, 07 Jan 2025 14:27:46 -0600</pubDate>
+      <guid>localhost:1313posts/2024/</guid>
+      <description>&lt;h2 id=&#34;delights&#34;&gt;Delights&lt;/h2&gt;&#xA;&lt;h3 id=&#34;synthesizers&#34;&gt;Synthesizers&lt;/h3&gt;&#xA;&lt;p&gt;Yeah. Hello world.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Latent Homer: Toy Semantic Search with Simpsons Characters</title>
-      <link>https://jakesimonds.github.io/posts/latenthomer/</link>
+      <link>localhost:1313posts/latenthomer/</link>
       <pubDate>Wed, 14 Aug 2024 23:20:20 -0400</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/latenthomer/</guid>
-      <description>Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;bad houseguest&amp;rsquo;, &amp;lsquo;classic personality hire&amp;rsquo;, &amp;lsquo;silly elderly man&amp;rsquo;&amp;hellip;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</description>
+      <guid>localhost:1313posts/latenthomer/</guid>
+      <description>&lt;h2 id=&#34;embeddings-are-dope&#34;&gt;Embeddings are Dope&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;localhost:1313/img/latent_homer.png&#34; alt=&#34;&amp;ldquo;diagram&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://latenthomer.com&#34;&gt;http://latenthomer.com&lt;/a&gt; is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;&lt;em&gt;bad houseguest&lt;/em&gt;&amp;rsquo;, &lt;em&gt;&amp;lsquo;classic personality hire&amp;rsquo;&lt;/em&gt;, &lt;em&gt;&amp;lsquo;silly elderly man&amp;rsquo;&lt;/em&gt;&amp;hellip;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dash Robot with Llama</title>
-      <link>https://jakesimonds.github.io/posts/robotwllama/</link>
+      <link>localhost:1313posts/robotwllama/</link>
       <pubDate>Tue, 11 Jun 2024 16:09:52 -0400</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/robotwllama/</guid>
-      <description>What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&amp;rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&amp;hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
-You &amp;lsquo;drive it around&amp;rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself.</description>
+      <guid>localhost:1313posts/robotwllama/</guid>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;&#xA;&lt;p&gt;Watching the short demo video (&lt;a href=&#34;https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu&#34;&gt;https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu&lt;/a&gt;) is probably the best quick way to see what&amp;rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&amp;hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.&lt;/p&gt;&#xA;&lt;p&gt;You &amp;lsquo;drive it around&amp;rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp;amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp;amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn&amp;rsquo;t do that either just out of laziness.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First Thoughts on XZ Backdoor Exploits</title>
-      <link>https://jakesimonds.github.io/posts/xzbackdoor/</link>
+      <link>localhost:1313posts/xzbackdoor/</link>
       <pubDate>Mon, 01 Apr 2024 17:54:55 -0400</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/xzbackdoor/</guid>
-      <description>April Fools!!!!!!!!!!!!!!!!!!!
-I have nothing to add to the conversation. It&amp;rsquo;s very interesting, though!</description>
+      <guid>localhost:1313posts/xzbackdoor/</guid>
+      <description>&lt;p&gt;April Fools!!!!!!!!!!!!!!!!!!!&lt;/p&gt;&#xA;&lt;p&gt;I have nothing to add to the conversation. It&amp;rsquo;s very interesting, though!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI Hot Takes for Posterity</title>
-      <link>https://jakesimonds.github.io/posts/aihottakes/</link>
+      <link>localhost:1313posts/aihottakes/</link>
       <pubDate>Sat, 23 Mar 2024 17:41:41 -0400</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/aihottakes/</guid>
-      <description>Who am I? I&amp;rsquo;m a software engineer &amp;lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &amp;gt; working at the edge of ChatGPT&amp;rsquo;s abilities).
-Use-Cases I&amp;rsquo;m Not Ashamed Of Acronym hunting Say I&amp;rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&amp;rsquo;t heard of.</description>
+      <guid>localhost:1313posts/aihottakes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;localhost:1313/img/chatGPTscreenshot.png&#34; alt=&#34;screengrab&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h3&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a software engineer &amp;lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &amp;gt; working at the edge of ChatGPT&amp;rsquo;s abilities).&lt;/p&gt;&#xA;&lt;h2 id=&#34;use-cases-im-not-ashamed-of&#34;&gt;Use-Cases I&amp;rsquo;m Not Ashamed Of&lt;/h2&gt;&#xA;&lt;h3 id=&#34;acronym-hunting&#34;&gt;Acronym hunting&lt;/h3&gt;&#xA;&lt;p&gt;Say I&amp;rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&amp;rsquo;t heard of. ctrl + c / ctrl + v -&amp;gt; ChatGPT! Since the context is already embedded in whatever I&amp;rsquo;m giving it, my anecdotal experience is that it does pretty decently defining terms (and I avoid the annoying thing of googling some obscure acronym and getting back some Realtor&amp;rsquo;s Association in Nevada that shares the acronym I&amp;rsquo;m hunting for).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2023 Delights and Not So Delightfuls</title>
-      <link>https://jakesimonds.github.io/posts/2023/</link>
+      <link>localhost:1313posts/2023/</link>
       <pubDate>Sat, 09 Dec 2023 18:51:40 -0500</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/2023/</guid>
-      <description>Things I found Delightful &amp;amp; Not-So-Delightful in 2023 Year #2 of &amp;lsquo;getting into tech.&amp;rsquo; Feeling reflective, wanted to jot down some things that have brought me joy as well as a few things that just frustrated the hell out of me this year.
-Delightful Linux Chromebook Oh boy is linux fun! Bought a chromebook with ubuntu off a friend, and it has slowly become my primary personal machine. Trackpad sucks, bluetooth headphones sometimes don&amp;rsquo;t connect great (delay or just terribly quality).</description>
+      <guid>localhost:1313posts/2023/</guid>
+      <description>&lt;h1 id=&#34;things-i-found-delightful--not-so-delightful--in-2023&#34;&gt;Things I found Delightful &amp;amp; Not-So-Delightful  in 2023&lt;/h1&gt;&#xA;&lt;p&gt;Year #2 of &amp;lsquo;getting into tech.&amp;rsquo; Feeling reflective, wanted to jot down some things that have brought me joy as well as a few things that just frustrated the hell out of me this year.&lt;/p&gt;&#xA;&lt;h1 id=&#34;delightful&#34;&gt;Delightful&lt;/h1&gt;&#xA;&lt;h3 id=&#34;linux-chromebook&#34;&gt;Linux Chromebook&lt;/h3&gt;&#xA;&lt;p&gt;Oh boy is linux fun! Bought a chromebook with ubuntu off a friend, and it has slowly become my primary personal machine. Trackpad sucks, bluetooth headphones sometimes don&amp;rsquo;t connect great (delay or just terribly quality). Other than that, it&amp;rsquo;s pretty sweet.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dumb Electronics</title>
-      <link>https://jakesimonds.github.io/posts/electronics/</link>
+      <link>localhost:1313posts/electronics/</link>
       <pubDate>Thu, 30 Nov 2023 20:42:41 -0500</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/electronics/</guid>
-      <description>This summer started picking up electric oddities and toys at the goodwill. Had some fun taking them apart, learning a bit (though less than you might think) about electrics, and occasionally tried some weird stuff. If you&amp;rsquo;re in Portland ME and want to borrow either the camera or the keyboards for projects or fun, or collaborate on other similar stuff, be in touch!
-Camera The case.
-The Camera
-This is my iPhone&amp;rsquo;s perspective&amp;hellip;</description>
+      <guid>localhost:1313posts/electronics/</guid>
+      <description>&lt;p&gt;This summer started picking up electric oddities and toys at the goodwill. Had some fun taking them apart, learning a bit (though less than you might think) about electrics, and occasionally tried some weird stuff. If you&amp;rsquo;re in Portland ME and want to borrow either the camera or the keyboards for projects or fun, or collaborate on other similar stuff, be in touch!&lt;/p&gt;&#xA;&lt;h3 id=&#34;camera&#34;&gt;Camera&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;localhost:1313/img/Camera.jpg&#34; alt=&#34;&amp;ldquo;case&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The case.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;localhost:1313/img/PhotoCase.jpg&#34; alt=&#34;&amp;ldquo;camera&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Camera&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wordle Percentage Curiousity</title>
-      <link>https://jakesimonds.github.io/posts/wordle/</link>
+      <link>localhost:1313posts/wordle/</link>
       <pubDate>Sun, 26 Nov 2023 10:20:02 -0500</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/wordle/</guid>
-      <description>Did you know that the &amp;lsquo;Percentage&amp;rsquo; on your wordle stats is simply the number you&amp;rsquo;ve done successfully, over the total number of attempts rounded to the nearest integer? So 198/199 = 99.4975ish, rounds down to 99.
-While 199/200 = 99.5, rounds up to 100.
-I feel obligated to add: chasing this curiousity I cheated many times, by opening up a new browser and then continuing to guess until I knew I had the right word.</description>
+      <guid>localhost:1313posts/wordle/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;localhost:1313/img/ninetyNineWordle.png&#34; alt=&#34;&amp;ldquo;99 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Did you know that the &amp;lsquo;Percentage&amp;rsquo; on your wordle stats is simply the number you&amp;rsquo;ve done successfully, over the total number of attempts rounded to the nearest integer? So 198/199 = 99.4975ish, rounds down to 99.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;localhost:1313/img/oneHundredWordle.png&#34; alt=&#34;&amp;ldquo;100 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While 199/200 = 99.5, rounds up to 100.&lt;/p&gt;&#xA;&lt;p&gt;I feel obligated to add: chasing this curiousity I cheated many times, by opening up a new browser and then continuing to guess until I knew I had the right word. Those two instances of getting it on the first guess were real, though. &amp;lsquo;Earth&amp;rsquo; and &amp;lsquo;Piano&amp;rsquo; (which are both semi-regular starting words, which I was delighted to have tried on the days that they were that day&amp;rsquo;s word).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Github Annotated</title>
-      <link>https://jakesimonds.github.io/posts/github-annotated/</link>
+      <link>localhost:1313posts/github-annotated/</link>
       <pubDate>Sun, 19 Nov 2023 12:21:40 -0500</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/github-annotated/</guid>
-      <description>Github Annotated 1 I don&amp;rsquo;t remember making a github account, but I&amp;rsquo;m not surprised that I did. Summer of 2021 I made a lot of accounts with various services trying to see if this &amp;lsquo;get into tech&amp;rsquo; idea held any water. Requested the data from my sister&amp;rsquo;s netflix at one point. Filled out a form to make a twitter bot. Watched some TED talks. Read a lot of marketing materials from Boot Camps.</description>
+      <guid>localhost:1313posts/github-annotated/</guid>
+      <description>&lt;h2 id=&#34;github-annotated&#34;&gt;Github Annotated&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;localhost:1313/img/2021-github.png&#34; alt=&#34;&amp;ldquo;2021&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1&#34;&gt;1&lt;/h3&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t remember making a github account, but I&amp;rsquo;m not surprised that I did. Summer of 2021 I made a lot of accounts with various services trying to see if this &amp;lsquo;get into tech&amp;rsquo; idea held any water. Requested the data from my sister&amp;rsquo;s netflix at one point. Filled out a form to make a twitter bot. Watched some TED talks. Read a lot of marketing materials from Boot Camps. Couldn&amp;rsquo;t always distinguish educational materials from technical documentation from marketing materials.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I made this site</title>
-      <link>https://jakesimonds.github.io/posts/how-i-made-it/</link>
+      <link>localhost:1313posts/how-i-made-it/</link>
       <pubDate>Sun, 22 Oct 2023 12:21:09 -0400</pubDate>
-      
-      <guid>https://jakesimonds.github.io/posts/how-i-made-it/</guid>
-      <description>What it is Made with a framework called &amp;lsquo;Hugo,&amp;rsquo; and specifically using a theme called &amp;lsquo;paper.&amp;rsquo;
-I heard about it on a youtube video. One of the comments, still there on the video as of 11/19/23, says: &amp;ldquo;Hugo is the back-end developer&amp;rsquo;s best friend for making front-ends.&amp;rdquo; That pretty much sold me.
-It took me longer than I thought it would to get what I have today, and even this is less functionality-wise than my original ambitions.</description>
+      <guid>localhost:1313posts/how-i-made-it/</guid>
+      <description>&lt;h2 id=&#34;what-it-is&#34;&gt;What it is&lt;/h2&gt;&#xA;&lt;p&gt;Made with a framework called &amp;lsquo;Hugo,&amp;rsquo; and specifically using a theme called &amp;lsquo;paper.&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;I heard about it on a &lt;a href=&#34;https://www.youtube.com/watch?v=0RKpf3rK57I&#34;&gt;youtube video&lt;/a&gt;. One of the comments, still there on the video as of 11/19/23, says: &amp;ldquo;Hugo is the back-end developer&amp;rsquo;s best friend for making front-ends.&amp;rdquo; That pretty much sold me.&lt;/p&gt;&#xA;&lt;p&gt;It took me longer than I thought it would to get what I have today, and even this is less functionality-wise than my original ambitions. I was and sort of still am a little mystified at the relationships between the framework, and the theme, and my configs, and the universe. What&amp;rsquo;s cool is right now I&amp;rsquo;m writing this document in an .md file. Big fan of .md files.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

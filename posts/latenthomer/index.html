@@ -36,10 +36,15 @@
 
 
 
+
+
+
+
 <html
   class="not-ready lg:text-base"
   style="--bg: #faf8f1"
   lang="en-us"
+  dir="ltr"
 >
   <head>
   <meta charset="utf-8" />
@@ -59,7 +64,9 @@
   
   
   
-  <meta name="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
+  <meta name="description" content="Embeddings are Dope
+
+http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
   <meta name="author" content="Jake Simonds" />
   
 
@@ -69,28 +76,28 @@
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="#ZgotmplZ" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
 
   
   
   
   
-  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  <link rel="preload" as="image" href="https://gravatar.com/jakesimonds" />
   
   
 
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
   
 
@@ -98,7 +105,7 @@
   
   <script
     defer
-    src="https://jakesimonds.github.io/highlight.min.js"
+    src="#ZgotmplZ"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -108,63 +115,69 @@
   
 
   
-  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+  <link
+    rel="icon"
+    href="#ZgotmplZ"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="#ZgotmplZ"
+  />
 
   
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.139.0">
 
+  
   
   
   
   
   
   <meta itemprop="name" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
-<meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."><meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00" />
-<meta itemprop="dateModified" content="2024-08-14T23:20:20-04:00" />
-<meta itemprop="wordCount" content="662">
-<meta itemprop="keywords" content="" />
+  <meta itemprop="description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. ‘bad houseguest’, ‘classic personality hire’, ‘silly elderly man’…) or literally just input any string at all) and it’ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.">
+  <meta itemprop="datePublished" content="2024-08-14T23:20:20-04:00">
+  <meta itemprop="dateModified" content="2024-08-14T23:20:20-04:00">
+  <meta itemprop="wordCount" content="662">
   
-  <meta property="og:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters" />
-<meta property="og:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://jakesimonds.github.io/posts/latenthomer/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-14T23:20:20-04:00" />
-<meta property="article:modified_time" content="2024-08-14T23:20:20-04:00" />
-
-
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters"/>
-<meta name="twitter:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;bad houseguest&rsquo;, &lsquo;classic personality hire&rsquo;, &lsquo;silly elderly man&rsquo;&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity."/>
+  <meta property="og:url" content="localhost:1313posts/latenthomer/">
+  <meta property="og:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
+  <meta property="og:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. ‘bad houseguest’, ‘classic personality hire’, ‘silly elderly man’…) or literally just input any string at all) and it’ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-14T23:20:20-04:00">
+    <meta property="article:modified_time" content="2024-08-14T23:20:20-04:00">
 
   
   
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Latent Homer: Toy Semantic Search with Simpsons Characters">
+  <meta name="twitter:description" content="Embeddings are Dope http://latenthomer.com is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. ‘bad houseguest’, ‘classic personality hire’, ‘silly elderly man’…) or literally just input any string at all) and it’ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.">
+
   
-  <link rel="canonical" href="https://jakesimonds.github.io/posts/latenthomer/" />
+  
+
+  
+  <link rel="canonical" href="#ZgotmplZ" />
   
   
 </head>
 
   <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a
-      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="https://jakesimonds.github.io/"
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="#ZgotmplZ"
       ></a
     >
     <div
-      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
       role="button"
       aria-label="Dark"
     ></div>
   </div>
 
-  
-
   <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
     role="button"
     aria-label="Menu"
   ></div>
@@ -219,30 +232,24 @@
   >
     
     
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/"
         >Home</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/projects"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects/"
         >Projects</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="https://calendly.com/jakesimonds/30min"
-        >Calendly</a
       >
       
     </nav>
@@ -250,11 +257,11 @@
 
     
     <nav
-      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
     >
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./github.svg)"
         href="https://github.com/jakesimonds"
         target="_blank"
@@ -264,7 +271,7 @@
       </a>
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./linkedin.svg)"
         href="https://linkedin.com/in/jake-simonds"
         target="_blank"
@@ -280,7 +287,7 @@
 
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
     >
       
 <article>
@@ -290,7 +297,7 @@
 <p><img src="/img/latent_homer.png" alt="&ldquo;diagram&rdquo;"></p>
 <p><a href="http://latenthomer.com">http://latenthomer.com</a> is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &lsquo;<em>bad houseguest</em>&rsquo;, <em>&lsquo;classic personality hire&rsquo;</em>, <em>&lsquo;silly elderly man&rsquo;</em>&hellip;) or literally just input any string at all) and it&rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.</p>
 <h2 id="how-id-explain-embeddings-to-myself-six-months-ago">How I&rsquo;d explain embeddings to myself six months ago</h2>
-<p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people come in and ask you for things.  One day somebody comes in and asks if you have a &lsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
+<p>Let&rsquo;s imagine you have an old-fashioned store where you sit at a counter &amp; people come in and ask you for things.  One day somebody comes in and asks if you have a &rsquo;toque,&rsquo; or anything like it. You know you don&rsquo;t have it, but how can you know if you have anything like it?</p>
 <p>Suddenly you have this idea. You close the store for the afternoon, tape some butcher paper to the wall of your warehouse, and draw a HUGE two-dimensional graph. On the <strong>x-axis</strong> you label, <strong>Weight</strong>. <strong>Y-axis - Price</strong>. You then go through your entire inventory, weighing and noting the price of everything you have for sale. You end up with a graph that looks something like this:</p>
 <p><img src="/img/fake_graph.png" alt="&ldquo;fake graph&rdquo;"></p>
 <p><em>Sorry about the ecletic items, forgot about the fictional scenario while making the graph. Also placement of items is inexact &amp; not important &amp; if you&rsquo;re confused right now look at the the blue, green and yellow dots. Which one is&hellip;a: Bag of potatoes, b: used scooter, c: laptop</em></p>
@@ -318,21 +325,23 @@
     </main>
 
     <footer
-  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
 >
   <div class="mr-auto">
-    &copy; 2024
-    <a class="link" href="https://jakesimonds.github.io/"></a>
+  
+    &copy; 2025
+    <a class="link" href="#ZgotmplZ"></a>
+  
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >Powered by Hugo️️</a
+    >powered by hugo️️</a
   >️
   <a
     class="link"
     href="https://github.com/nanxiaobei/hugo-paper"
     rel="noopener"
     target="_blank"
-    >✎ Paper</a
+    >hugo-paper</a
   >
 </footer>
 

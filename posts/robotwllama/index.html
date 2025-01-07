@@ -36,10 +36,15 @@
 
 
 
+
+
+
+
 <html
   class="not-ready lg:text-base"
   style="--bg: #faf8f1"
   lang="en-us"
+  dir="ltr"
 >
   <head>
   <meta charset="utf-8" />
@@ -59,8 +64,9 @@
   
   
   
-  <meta name="description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
-You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself." />
+  <meta name="description" content="What is it?
+Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn&rsquo;t do that either just out of laziness." />
   <meta name="author" content="Jake Simonds" />
   
 
@@ -70,28 +76,28 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
   
   
   
-  <link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="#ZgotmplZ" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
 
   
   
   
   
-  <link rel="preload" as="image" href="https://gravatar.com/avatar/e24139846ebde9f6a2653d52682d7e004939352ad71e8ad027b9174f82fb4627" />
+  <link rel="preload" as="image" href="https://gravatar.com/jakesimonds" />
   
   
 
   
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
-  <link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+  <link rel="preload" as="image" href="#ZgotmplZ" />
   
   
 
@@ -99,7 +105,7 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
   
   <script
     defer
-    src="https://jakesimonds.github.io/highlight.min.js"
+    src="#ZgotmplZ"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -109,66 +115,72 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
   
 
   
-  <link rel="icon" href="https://jakesimonds.github.io/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://jakesimonds.github.io/apple-touch-icon.png" />
+  <link
+    rel="icon"
+    href="#ZgotmplZ"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="#ZgotmplZ"
+  />
 
   
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.139.0">
 
+  
   
   
   
   
   
   <meta itemprop="name" content="Dash Robot with Llama">
-<meta itemprop="description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
-You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself."><meta itemprop="datePublished" content="2024-06-11T16:09:52-04:00" />
-<meta itemprop="dateModified" content="2024-06-11T16:09:52-04:00" />
-<meta itemprop="wordCount" content="480">
-<meta itemprop="keywords" content="" />
+  <meta itemprop="description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what’s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend…) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You ‘drive it around’ by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn’t do that either just out of laziness.">
+  <meta itemprop="datePublished" content="2024-06-11T16:09:52-04:00">
+  <meta itemprop="dateModified" content="2024-06-11T16:09:52-04:00">
+  <meta itemprop="wordCount" content="480">
   
-  <meta property="og:title" content="Dash Robot with Llama" />
-<meta property="og:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
-You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://jakesimonds.github.io/posts/robotwllama/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-06-11T16:09:52-04:00" />
-<meta property="article:modified_time" content="2024-06-11T16:09:52-04:00" />
-
-
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dash Robot with Llama"/>
-<meta name="twitter:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what&rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
-You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself."/>
+  <meta property="og:url" content="localhost:1313posts/robotwllama/">
+  <meta property="og:title" content="Dash Robot with Llama">
+  <meta property="og:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what’s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend…) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You ‘drive it around’ by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn’t do that either just out of laziness.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-11T16:09:52-04:00">
+    <meta property="article:modified_time" content="2024-06-11T16:09:52-04:00">
 
   
   
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dash Robot with Llama">
+  <meta name="twitter:description" content="What is it? Watching the short demo video (https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu) is probably the best quick way to see what’s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend…) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.
+You ‘drive it around’ by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn’t do that either just out of laziness.">
+
   
-  <link rel="canonical" href="https://jakesimonds.github.io/posts/robotwllama/" />
+  
+
+  
+  <link rel="canonical" href="#ZgotmplZ" />
   
   
 </head>
 
   <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a
-      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="https://jakesimonds.github.io/"
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="#ZgotmplZ"
       ></a
     >
     <div
-      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
       role="button"
       aria-label="Dark"
     ></div>
   </div>
 
-  
-
   <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
     role="button"
     aria-label="Menu"
   ></div>
@@ -223,30 +235,24 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
   >
     
     
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/"
         >Home</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
       
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/projects"
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/projects/"
         >Projects</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="https://calendly.com/jakesimonds/30min"
-        >Calendly</a
       >
       
     </nav>
@@ -254,11 +260,11 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
 
     
     <nav
-      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
     >
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./github.svg)"
         href="https://github.com/jakesimonds"
         target="_blank"
@@ -268,7 +274,7 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
       </a>
       
       <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./linkedin.svg)"
         href="https://linkedin.com/in/jake-simonds"
         target="_blank"
@@ -284,7 +290,7 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
 
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
     >
       
 <article>
@@ -302,7 +308,7 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
 <li>the website is just your basic website, React on the front Express in the back.</li>
 <li>The backend can talk to a linux machine which hosts a Flask app, which is basically a wrapper (that listens) around the robot API (MorseAPI) I found online. So you press &lsquo;Forward&rsquo; on the website, the Express backend can send a request to the Flask app &ldquo;hey, make the robot go forward&rdquo; and it sends that via bluetooth along to the robot</li>
 <li>(Q: &ldquo;Why not have it all on one machine/program?&rdquo; A: Dependency issues &amp; my own inexperience)</li>
-<li>The backend can also talk to a FastAPI server/program, which hosts Ollama hosting Llama3. In that workflow, the backend takes a command string (natural language) from the user, uses Llama3 to &lsquo;translate&rsquo; it into a valid API call, and then sends that (or those) valid api calls to the robot who performs the actions</li>
+<li>The backend can also talk to a FastAPI server/program, which hosts Ollama hosting Llama3. In that workflow, the backend takes a command string (natural language) from the user, uses Llama3 to &rsquo;translate&rsquo; it into a valid API call, and then sends that (or those) valid api calls to the robot who performs the actions</li>
 </ul>
 <h2 id="whats-next">What&rsquo;s next</h2>
 <p>This project has been fun for learning how to use Ollama with Llama 7B locally, and I think I&rsquo;d like to potentially find a next project that can utilize that in a more digitally native way, so I&rsquo;m not stuck with another project that&rsquo;s daisy-chained and messy and a chore to set up just to work on.</p>
@@ -315,21 +321,23 @@ You &lsquo;drive it around&rsquo; by just passing basic API calls (forward, left
     </main>
 
     <footer
-  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
 >
   <div class="mr-auto">
-    &copy; 2024
-    <a class="link" href="https://jakesimonds.github.io/"></a>
+  
+    &copy; 2025
+    <a class="link" href="#ZgotmplZ"></a>
+  
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >Powered by Hugo️️</a
+    >powered by hugo️️</a
   >️
   <a
     class="link"
     href="https://github.com/nanxiaobei/hugo-paper"
     rel="noopener"
     target="_blank"
-    >✎ Paper</a
+    >hugo-paper</a
   >
 </footer>
 
