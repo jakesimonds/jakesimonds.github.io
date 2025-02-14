@@ -6,8 +6,22 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2025 14:27:46 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2025 12:05:01 -0500</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://jakesimonds.github.io/posts/test/</link>
+      <pubDate>Fri, 14 Feb 2025 12:05:01 -0500</pubDate>
+      <guid>https://jakesimonds.github.io/posts/test/</guid>
+      <description>&lt;p&gt;hello hello# This is a test&lt;/p&gt;&#xA;&lt;p&gt;I am trying automate posting a blog entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MyPost</title>
+      <link>https://jakesimonds.github.io/posts/mypost/</link>
+      <pubDate>Fri, 14 Feb 2025 11:54:42 -0500</pubDate>
+      <guid>https://jakesimonds.github.io/posts/mypost/</guid>
+      <description>&lt;p&gt;hello hello&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Delights and Not So Delightfuls</title>
       <link>https://jakesimonds.github.io/posts/2024/</link>
