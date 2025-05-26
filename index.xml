@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Apr 2025 09:16:36 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 13:38:25 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Vibe</title>
+      <link>https://jakesimonds.github.io/posts/vibes/</link>
+      <pubDate>Mon, 26 May 2025 13:38:25 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/vibes/</guid>
+      <description>&lt;p&gt;Some quick thoughts on how I&amp;rsquo;m using LLMs. Everything with a grain of salt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;super-rough-mental-modal&#34;&gt;super-rough mental modal:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/pentagonDiagram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The LLM has a few superpowers. The one to keep top-of-mind vibe coding is that an LLM can inhale text in a way I can&amp;rsquo;t even really appreciate or understand. So my job is to throw text at it. Docs. Error messages. My own rambling (using f5 on my macbook set up as hotkey for transcription).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Give Up List</title>
       <link>https://jakesimonds.github.io/posts/give-up-list/</link>
