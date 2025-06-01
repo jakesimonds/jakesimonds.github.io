@@ -6,8 +6,22 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 May 2025 13:38:25 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 13:09:28 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social Media Is Weird</title>
+      <link>https://jakesimonds.github.io/posts/socialmediaisweird/</link>
+      <pubDate>Sun, 01 Jun 2025 13:09:28 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/socialmediaisweird/</guid>
+      <description>&lt;p&gt;Someday when I have more time I want to use what I learned in computer school to make something about social media.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t have the time right now. This is an attempt I made to make just a map of the social scenes I consider myself a part of and where they live digitally:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/incompleteSocialMediaMap.png&#34; alt=&#34;test&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;things-i-would-write-about&#34;&gt;things I would write about&lt;/h2&gt;&#xA;&lt;p&gt;(not writing about them now, just trying to put this out in the world almost to remind myself in the future that I was thinking about all this)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment: Literally my Journal 5/26-&gt;6/1 (sanitized thru LLM)</title>
+      <link>https://jakesimonds.github.io/posts/june1/</link>
+      <pubDate>Sun, 01 Jun 2025 13:08:06 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/june1/</guid>
+      <description>&lt;p&gt;(This is literally a week of journal entries, which I fed to an LLM and told to transform/translate into something without specifics that I could post on my blog as a personal update. Then a half-dozen or so iterations of telling it to not include things, or changes in tone, then finally I literally edited a few places, and that&amp;rsquo;s it.)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-is-jake-doing&#34;&gt;How Is Jake Doing?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;A periodic check-in experiment&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jake&amp;rsquo;s doing well overall - navigating the usual mix of professional growth and personal projects that keeps things interesting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I Vibe</title>
       <link>https://jakesimonds.github.io/posts/vibes/</link>

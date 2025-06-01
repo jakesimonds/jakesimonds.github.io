@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jakesimonds.github.io/posts/vibes/</loc>
-    <lastmod>2025-05-26T13:38:25-04:00</lastmod>
-  </url><url>
     <loc>https://jakesimonds.github.io/posts/</loc>
+    <lastmod>2025-06-01T13:09:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/socialmediaisweird/</loc>
+    <lastmod>2025-06-01T13:09:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/june1/</loc>
+    <lastmod>2025-06-01T13:08:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/vibes/</loc>
     <lastmod>2025-05-26T13:38:25-04:00</lastmod>
   </url><url>
     <loc>https://jakesimonds.github.io/posts/give-up-list/</loc>
