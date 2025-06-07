@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jun 2025 11:11:59 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 11:59:35 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordSynth</title>
+      <link>https://jakesimonds.github.io/posts/wordsynth/</link>
+      <pubDate>Sat, 07 Jun 2025 11:59:35 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/wordsynth/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;http://wordsynth.latenthomer.com/&#34;&gt;http://wordsynth.latenthomer.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/wordSynthCh.png&#34; alt=&#34;jokeScreenshot&#34;&gt;&#xA;&lt;em&gt;An example of the kinds of shenanigans you can get up to with WordSynth. Note &amp;lsquo;ch&amp;rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &amp;lsquo;ch&amp;rsquo; is boosted enough to make the LLM&amp;hellip;act funny&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;&#xA;&lt;p&gt;Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stoner AI Thoughts</title>
       <link>https://jakesimonds.github.io/posts/stoner-ai-thoughts/</link>
