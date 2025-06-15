@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jun 2025 11:59:35 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jun 2025 18:18:54 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LAMP Stack appreciation post</title>
+      <link>https://jakesimonds.github.io/posts/lamp/</link>
+      <pubDate>Sun, 15 Jun 2025 18:18:54 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/lamp/</guid>
+      <description>&lt;h2 id=&#34;writing-about-technical-stuff-is-hard&#34;&gt;Writing about technical stuff is hard&lt;/h2&gt;&#xA;&lt;p&gt;When I blog, I spend an large amount of time not writing at all, but just vacillating trying to decide who my likely audience is, and how &amp;rsquo;technical&amp;rsquo; or &amp;lsquo;beginner-friendly&amp;rsquo; I should be.&lt;/p&gt;&#xA;&lt;p&gt;And then when I finally make up my mind and decide to explain something, I hit another patch of indecision over whether I&amp;rsquo;m even qualified to explain the thing I want to talk about.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WordSynth</title>
       <link>https://jakesimonds.github.io/posts/wordsynth/</link>
