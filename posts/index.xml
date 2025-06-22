@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jun 2025 18:18:54 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 21:06:05 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Things Ive Read And Liked (June 2025)</title>
+      <link>https://jakesimonds.github.io/posts/thingsivereadandliked/</link>
+      <pubDate>Sat, 21 Jun 2025 21:06:05 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/thingsivereadandliked/</guid>
+      <description>&lt;p&gt;Lazy post, just jotting down some blog posts I&amp;rsquo;ve recently liked.&lt;/p&gt;&#xA;&lt;h1 id=&#34;seldo-llms-are-good-at-transforming-text-into-less-text&#34;&gt;Seldo: &amp;ldquo;LLMs are good at transforming text into less text&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://seldo.com/posts/what-ive-learned-about-writing-ai-apps-so-far&#34;&gt;https://seldo.com/posts/what-ive-learned-about-writing-ai-apps-so-far&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I say that line from the above blog post to myself at least a couple times a week.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a justification to myself as I keep cramming text into context windows. As I ctrl+c entire pages of documentation into my cursor chat. The whole post is good but like that phrase in particular I love.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LAMP Stack appreciation post</title>
       <link>https://jakesimonds.github.io/posts/lamp/</link>
