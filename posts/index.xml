@@ -2,150 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>https://jakesimonds.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jul 2025 12:19:30 -0400</lastBuildDate>
-    <atom:link href="https://jakesimonds.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jul 2025 18:37:22 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WikiSurfer</title>
+      <link>http://localhost:1313/posts/wikisurfer/</link>
+      <pubDate>Thu, 31 Jul 2025 18:37:22 -0400</pubDate>
+      <guid>http://localhost:1313/posts/wikisurfer/</guid>
+      <description>&lt;h2 id=&#34;what-is-wikisurfer&#34;&gt;What is WikiSurfer?&lt;/h2&gt;&#xA;&lt;p&gt;WikiSurfer is a web app that lets you navigate Wikipedia using arrow keys and AI. Instead of clicking links, you use directional navigation with AI-powered suggestions for each direction.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/wikisurfer_navigation_overlay.png&#34; alt=&#34;WikiSurfer in action&#34;&gt;&#xA;&lt;em&gt;The navigation overlay showing directional options (Big, Cat-like, Small, Dog-like) with arrow controls&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-core-concept&#34;&gt;The Core Concept&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Traditional Wikipedia&lt;/strong&gt;: Click links to navigate between pages&lt;br&gt;&#xA;&lt;strong&gt;WikiSurfer&lt;/strong&gt;: Use arrow keys with AI-suggested directions&lt;/p&gt;&#xA;&lt;p&gt;Example: On &amp;ldquo;Main Page&amp;rdquo; → Press &amp;ldquo;Up&amp;rdquo; → AI suggests &amp;ldquo;Big&amp;rdquo;, &amp;ldquo;Old&amp;rdquo;, &amp;ldquo;Hot&amp;rdquo;, &amp;ldquo;Fast&amp;rdquo;, &amp;ldquo;Obvious&amp;rdquo; → Choose &amp;ldquo;Big&amp;rdquo; → Navigate to a page about something large/massive&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Manifold Thoughts</title>
-      <link>https://jakesimonds.github.io/posts/july13/</link>
+      <link>http://localhost:1313/posts/july13/</link>
       <pubDate>Sun, 13 Jul 2025 12:19:30 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/july13/</guid>
+      <guid>http://localhost:1313/posts/july13/</guid>
       <description>&lt;h1 id=&#34;mcp-one-click-install-seems-awesome&#34;&gt;MCP one-click install seems awesome&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.anthropic.com/engineering/desktop-extensions&#34;&gt;https://www.anthropic.com/engineering/desktop-extensions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I made one of these just to walk thru the concept, and it wasn&amp;rsquo;t too tricky to make, and then a friend was able to drag-and-drop install and use. Seems pretty cool!&lt;/p&gt;&#xA;&lt;h1 id=&#34;is-a-key-a-manifold&#34;&gt;is a key a manifold?&lt;/h1&gt;&#xA;&lt;p&gt;Playing piano recently, and had the thought: when a song is &amp;lsquo;in a key&amp;rsquo;, its almost like the key is a manifold on the larger space of all possible chords and such. Is that fair?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Things Ive Read And Liked (June 2025)</title>
-      <link>https://jakesimonds.github.io/posts/thingsivereadandliked/</link>
+      <link>http://localhost:1313/posts/thingsivereadandliked/</link>
       <pubDate>Sat, 21 Jun 2025 21:06:05 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/thingsivereadandliked/</guid>
+      <guid>http://localhost:1313/posts/thingsivereadandliked/</guid>
       <description>&lt;p&gt;Lazy post, just jotting down some blog posts I&amp;rsquo;ve recently liked.&lt;/p&gt;&#xA;&lt;h1 id=&#34;seldo-llms-are-good-at-transforming-text-into-less-text&#34;&gt;Seldo: &amp;ldquo;LLMs are good at transforming text into less text&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://seldo.com/posts/what-ive-learned-about-writing-ai-apps-so-far&#34;&gt;https://seldo.com/posts/what-ive-learned-about-writing-ai-apps-so-far&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I say that line from the above blog post to myself at least a couple times a week.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a justification to myself as I keep cramming text into context windows. As I ctrl+c entire pages of documentation into my cursor chat. The whole post is good but like that phrase in particular I love.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LAMP Stack appreciation post</title>
-      <link>https://jakesimonds.github.io/posts/lamp/</link>
+      <link>http://localhost:1313/posts/lamp/</link>
       <pubDate>Sun, 15 Jun 2025 18:18:54 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/lamp/</guid>
+      <guid>http://localhost:1313/posts/lamp/</guid>
       <description>&lt;h2 id=&#34;writing-about-technical-stuff-is-hard&#34;&gt;Writing about technical stuff is hard&lt;/h2&gt;&#xA;&lt;p&gt;When I blog, I spend an large amount of time not writing at all, but just vacillating trying to decide who my likely audience is, and how &amp;rsquo;technical&amp;rsquo; or &amp;lsquo;beginner-friendly&amp;rsquo; I should be.&lt;/p&gt;&#xA;&lt;p&gt;And then when I finally make up my mind and decide to explain something, I hit another patch of indecision over whether I&amp;rsquo;m even qualified to explain the thing I want to talk about.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordSynth</title>
-      <link>https://jakesimonds.github.io/posts/wordsynth/</link>
+      <link>http://localhost:1313/posts/wordsynth/</link>
       <pubDate>Sat, 07 Jun 2025 11:59:35 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/wordsynth/</guid>
-      <description>&lt;p&gt;Link: &lt;a href=&#34;http://wordsynth.latenthomer.com/&#34;&gt;http://wordsynth.latenthomer.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/wordSynthCh.png&#34; alt=&#34;jokeScreenshot&#34;&gt;&#xA;&lt;em&gt;An example of the kinds of shenanigans you can get up to with WordSynth. Note &amp;lsquo;ch&amp;rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &amp;lsquo;ch&amp;rsquo; is boosted enough to make the LLM&amp;hellip;act funny&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;&#xA;&lt;p&gt;Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/wordsynth/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;http://wordsynth.latenthomer.com/&#34;&gt;http://wordsynth.latenthomer.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/wordSynthCh.png&#34; alt=&#34;jokeScreenshot&#34;&gt;&#xA;&lt;em&gt;An example of the kinds of shenanigans you can get up to with WordSynth. Note &amp;lsquo;ch&amp;rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &amp;lsquo;ch&amp;rsquo; is boosted enough to make the LLM&amp;hellip;act funny&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h1&gt;&#xA;&lt;p&gt;Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stoner AI Thoughts</title>
-      <link>https://jakesimonds.github.io/posts/stoner-ai-thoughts/</link>
+      <link>http://localhost:1313/posts/stoner-ai-thoughts/</link>
       <pubDate>Sat, 07 Jun 2025 11:11:59 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/stoner-ai-thoughts/</guid>
+      <guid>http://localhost:1313/posts/stoner-ai-thoughts/</guid>
       <description>&lt;p&gt;&lt;em&gt;&amp;hellip;because talking to computers is just totally bananas&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;i-talk-to-computers-more-than-i-talk-to-people&#34;&gt;I talk to computers more than I talk to people&lt;/h1&gt;&#xA;&lt;p&gt;If you count &amp;rsquo;talking&amp;rsquo; as an exchange of any sort of message, I definitely talk to computers more than people. If you randomly take &amp;lsquo;something I&amp;rsquo;m writing or saying&amp;rsquo; there&amp;rsquo;s a greater than 50% chance it&amp;rsquo;s not meant for a human.&lt;/p&gt;&#xA;&lt;p&gt;This blog post is probably going to get &amp;lsquo;processed&amp;rsquo; by LLMs more times than its read by human eyeballs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Social Media Is Weird</title>
-      <link>https://jakesimonds.github.io/posts/socialmediaisweird/</link>
+      <link>http://localhost:1313/posts/socialmediaisweird/</link>
       <pubDate>Sun, 01 Jun 2025 13:09:28 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/socialmediaisweird/</guid>
-      <description>&lt;p&gt;Someday when I have more time I want to use what I learned in computer school to make something about social media.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t have the time right now. This is an attempt I made to make just a map of the social scenes I consider myself a part of and where they live digitally:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/incompleteSocialMediaMap.png&#34; alt=&#34;test&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;things-i-would-write-about&#34;&gt;things I would write about&lt;/h2&gt;&#xA;&lt;p&gt;(not writing about them now, just trying to put this out in the world almost to remind myself in the future that I was thinking about all this)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/socialmediaisweird/</guid>
+      <description>&lt;p&gt;Someday when I have more time I want to use what I learned in computer school to make something about social media.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t have the time right now. This is an attempt I made to make just a map of the social scenes I consider myself a part of and where they live digitally:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/incompleteSocialMediaMap.png&#34; alt=&#34;test&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;things-i-would-write-about&#34;&gt;things I would write about&lt;/h2&gt;&#xA;&lt;p&gt;(not writing about them now, just trying to put this out in the world almost to remind myself in the future that I was thinking about all this)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experiment: Literally my Journal 5/26-&gt;6/1 (sanitized thru LLM)</title>
-      <link>https://jakesimonds.github.io/posts/june1/</link>
+      <link>http://localhost:1313/posts/june1/</link>
       <pubDate>Sun, 01 Jun 2025 13:08:06 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/june1/</guid>
+      <guid>http://localhost:1313/posts/june1/</guid>
       <description>&lt;p&gt;(This is literally a week of journal entries, which I fed to an LLM and told to transform/translate into something without specifics that I could post on my blog as a personal update. Then a half-dozen or so iterations of telling it to not include things, or changes in tone, then finally I literally edited a few places, and that&amp;rsquo;s it.)&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-is-jake-doing&#34;&gt;How Is Jake Doing?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;A periodic check-in experiment&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jake&amp;rsquo;s doing well overall - navigating the usual mix of professional growth and personal projects that keeps things interesting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Vibe</title>
-      <link>https://jakesimonds.github.io/posts/vibes/</link>
+      <link>http://localhost:1313/posts/vibes/</link>
       <pubDate>Mon, 26 May 2025 13:38:25 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/vibes/</guid>
-      <description>&lt;p&gt;Some quick thoughts on how I&amp;rsquo;m using LLMs. Everything with a grain of salt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;super-rough-mental-modal&#34;&gt;super-rough mental modal:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/pentagonDiagram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The LLM has a few superpowers. The one to keep top-of-mind vibe coding is that an LLM can inhale text in a way I can&amp;rsquo;t even really appreciate or understand. So my job is to throw text at it. Docs. Error messages. My own rambling (using f5 on my macbook set up as hotkey for transcription).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/vibes/</guid>
+      <description>&lt;p&gt;Some quick thoughts on how I&amp;rsquo;m using LLMs. Everything with a grain of salt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;super-rough-mental-modal&#34;&gt;super-rough mental modal:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/pentagonDiagram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The LLM has a few superpowers. The one to keep top-of-mind vibe coding is that an LLM can inhale text in a way I can&amp;rsquo;t even really appreciate or understand. So my job is to throw text at it. Docs. Error messages. My own rambling (using f5 on my macbook set up as hotkey for transcription).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Give Up List</title>
-      <link>https://jakesimonds.github.io/posts/give-up-list/</link>
+      <link>http://localhost:1313/posts/give-up-list/</link>
       <pubDate>Sat, 19 Apr 2025 09:16:36 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/give-up-list/</guid>
-      <description>&lt;p&gt;2025 has felt a little bit like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/dunningKrugerJake.png&#34; alt=&#34;&amp;ldquo;How 2025 feels&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One thing I&amp;rsquo;m struggling with these days is having anxiety about &lt;em&gt;what&lt;/em&gt; to learn.&lt;/p&gt;&#xA;&lt;p&gt;A small thing that&amp;rsquo;s helped has been enthusiastically giving up the stuff that just isn&amp;rsquo;t really serving me personally.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-give-up-list&#34;&gt;The Give Up List&lt;/h1&gt;&#xA;&lt;h2 id=&#34;vim&#34;&gt;Vim&lt;/h2&gt;&#xA;&lt;p&gt;Fuck vim for how it made me feel the first time I tried to use it and couldn&amp;rsquo;t figure out how to get out of it and then thought &lt;em&gt;maybe a computers career isn&amp;rsquo;t for me&lt;/em&gt;. Also fuck vi, nvim and the other ones I haven&amp;rsquo;t heard of. I&amp;rsquo;m thankful that at least I was never down bad enough to convince myself I needed to learn Emacs.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/give-up-list/</guid>
+      <description>&lt;p&gt;2025 has felt a little bit like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/dunningKrugerJake.png&#34; alt=&#34;&amp;ldquo;How 2025 feels&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One thing I&amp;rsquo;m struggling with these days is having anxiety about &lt;em&gt;what&lt;/em&gt; to learn.&lt;/p&gt;&#xA;&lt;p&gt;A small thing that&amp;rsquo;s helped has been enthusiastically giving up the stuff that just isn&amp;rsquo;t really serving me personally.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-give-up-list&#34;&gt;The Give Up List&lt;/h1&gt;&#xA;&lt;h2 id=&#34;vim&#34;&gt;Vim&lt;/h2&gt;&#xA;&lt;p&gt;Fuck vim for how it made me feel the first time I tried to use it and couldn&amp;rsquo;t figure out how to get out of it and then thought &lt;em&gt;maybe a computers career isn&amp;rsquo;t for me&lt;/em&gt;. Also fuck vi, nvim and the other ones I haven&amp;rsquo;t heard of. I&amp;rsquo;m thankful that at least I was never down bad enough to convince myself I needed to learn Emacs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Things I Learned In Computer School: Pt 1</title>
-      <link>https://jakesimonds.github.io/posts/learned/</link>
+      <link>http://localhost:1313/posts/learned/</link>
       <pubDate>Sun, 23 Mar 2025 17:02:11 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/learned/</guid>
+      <guid>http://localhost:1313/posts/learned/</guid>
       <description>&lt;p&gt;(this is an ongoing series when I think of it of things I learned getting a degree in computer science that are maybe relevant to regular people while I still have a memory of what it was like to be a regular person)&lt;/p&gt;&#xA;&lt;h2 id=&#34;its-very-easy-to-write-a-program-that-would-run-until-the-sun-explodes-10-lines&#34;&gt;It&amp;rsquo;s VERY easy to write a program that would run until the sun explodes (10 lines)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;def fibonacci_sum(n):&#xA;    if n &amp;lt;= 0:&#xA;        return 0&#xA;    if n == 1:&#xA;        return 1&#xA;    return fibonacci_sum(n-1) + fibonacci_sum(n-2)&#xA;&#xA;if __name__ == &amp;#34;__main__&amp;#34;:&#xA;    print(&amp;#34;Calculating Fibonacci sequence for a Googol (don&amp;#39;t hold your breath)...&amp;#34;)&#xA;&#xA;    result = fibonacci_sum(10**100)&#xA;    print(f&amp;#34;Result: {result}&amp;#34;)  &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you paste this code into a python file and run it your computer will get to work, and just never finish because the problem is basically impossible to solve. It&amp;rsquo;s not that any one thing I&amp;rsquo;m asking the computer to do is intractable. It&amp;rsquo;s just the problem is too big.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Delights and Not So Delightfuls</title>
-      <link>https://jakesimonds.github.io/posts/2024/</link>
+      <link>http://localhost:1313/posts/2024/</link>
       <pubDate>Tue, 07 Jan 2025 14:27:46 -0600</pubDate>
-      <guid>https://jakesimonds.github.io/posts/2024/</guid>
+      <guid>http://localhost:1313/posts/2024/</guid>
       <description>&lt;h2 id=&#34;delights&#34;&gt;Delights&lt;/h2&gt;&#xA;&lt;p&gt;1:&#xA;Synthesizers&lt;/p&gt;&#xA;&lt;p&gt;2:&#xA;Cosine Similarity&lt;/p&gt;&#xA;&lt;p&gt;3:&#xA;Walks to South Portland Goodwill&lt;/p&gt;&#xA;&lt;p&gt;4:&#xA;Breadboards&lt;/p&gt;&#xA;&lt;p&gt;5:&#xA;Running&lt;/p&gt;&#xA;&lt;p&gt;6:&#xA;Ollama + llama3 + telling it to return json&lt;/p&gt;&#xA;&lt;p&gt;7:&#xA;Overnight computing&lt;/p&gt;&#xA;&lt;h2 id=&#34;not-so-delightfuls&#34;&gt;Not So Delightfuls&lt;/h2&gt;&#xA;&lt;p&gt;1:&#xA;Linux on personal laptop just &amp;hellip; completely hard crashed on me &amp;amp; I felt stupid &amp;amp; lost some stuff&lt;/p&gt;&#xA;&lt;p&gt;2:&#xA;Dependency creep on robot personal project (at its peak I needed 2 laptops &amp;amp; a rasperry pi &amp;amp; some peripherals &amp;amp; all of them talking to each other over a local network, all that just to start working on the dang thing &amp;amp; like if memory serves a a few shell scripts on a couple of the machines too. Bleh)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latent Homer: Toy Semantic Search with Simpsons Characters</title>
-      <link>https://jakesimonds.github.io/posts/latenthomer/</link>
+      <link>http://localhost:1313/posts/latenthomer/</link>
       <pubDate>Wed, 14 Aug 2024 23:20:20 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/latenthomer/</guid>
-      <description>&lt;h2 id=&#34;embeddings-are-dope&#34;&gt;Embeddings are Dope&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/latent_homer.png&#34; alt=&#34;&amp;ldquo;diagram&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://latenthomer.com&#34;&gt;http://latenthomer.com&lt;/a&gt; is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;&lt;em&gt;bad houseguest&lt;/em&gt;&amp;rsquo;, &lt;em&gt;&amp;lsquo;classic personality hire&amp;rsquo;&lt;/em&gt;, &lt;em&gt;&amp;lsquo;silly elderly man&amp;rsquo;&lt;/em&gt;&amp;hellip;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/latenthomer/</guid>
+      <description>&lt;h2 id=&#34;embeddings-are-dope&#34;&gt;Embeddings are Dope&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/latent_homer.png&#34; alt=&#34;&amp;ldquo;diagram&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://latenthomer.com&#34;&gt;http://latenthomer.com&lt;/a&gt; is a very simple semantic search web app I built to teach myself about embeddings. The way it works is, I generated embeddings for one-sentence descriptions of 70 Simpsons characters and am storing them in a ChromaDB instance. You can go to the site, describe a person ((or type or person, i.e. &amp;lsquo;&lt;em&gt;bad houseguest&lt;/em&gt;&amp;rsquo;, &lt;em&gt;&amp;lsquo;classic personality hire&amp;rsquo;&lt;/em&gt;, &lt;em&gt;&amp;lsquo;silly elderly man&amp;rsquo;&lt;/em&gt;&amp;hellip;) or literally just input any string at all) and it&amp;rsquo;ll generate an embedding for your string, and then query my collection of character descriptions for matches based on cosine similarity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dash Robot with Llama</title>
-      <link>https://jakesimonds.github.io/posts/robotwllama/</link>
+      <link>http://localhost:1313/posts/robotwllama/</link>
       <pubDate>Tue, 11 Jun 2024 16:09:52 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/robotwllama/</guid>
+      <guid>http://localhost:1313/posts/robotwllama/</guid>
       <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;&#xA;&lt;p&gt;Watching the short demo video (&lt;a href=&#34;https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu&#34;&gt;https://youtu.be/FoStVCW7-HY?si=YCHYhMVfsc7IoSCu&lt;/a&gt;) is probably the best quick way to see what&amp;rsquo;s going on, but to teach myself web development I made kinda the classic Web Development basic non-trivial website (with (super basic) authentication, a database, a front-end, a backend&amp;hellip;) but made it so you could log in, connect (locally) to a toy robot over bluetooth, and then drive it around.&lt;/p&gt;&#xA;&lt;p&gt;You &amp;lsquo;drive it around&amp;rsquo; by just passing basic API calls (forward, left, right, back) to another program that passes those commands along to the robot itself. Initially I had plans to make the whole thing more feature-ful, since the toy robot &amp;amp; the API I found for it had a lot of diverse functionality. But it was tedious making buttons (&amp;amp; then deciding where the buttons should go, etc), so I only did a little bit. I tentatively thought about exposing more methods via a documented API, as maybe a teaching tool for students, but then didn&amp;rsquo;t do that either just out of laziness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Thoughts on XZ Backdoor Exploits</title>
-      <link>https://jakesimonds.github.io/posts/xzbackdoor/</link>
+      <link>http://localhost:1313/posts/xzbackdoor/</link>
       <pubDate>Mon, 01 Apr 2024 17:54:55 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/xzbackdoor/</guid>
+      <guid>http://localhost:1313/posts/xzbackdoor/</guid>
       <description>&lt;p&gt;April Fools!!!!!!!!!!!!!!!!!!!&lt;/p&gt;&#xA;&lt;p&gt;I have nothing to add to the conversation. It&amp;rsquo;s very interesting, though!&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Hot Takes for Posterity</title>
-      <link>https://jakesimonds.github.io/posts/aihottakes/</link>
+      <link>http://localhost:1313/posts/aihottakes/</link>
       <pubDate>Sat, 23 Mar 2024 17:41:41 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/aihottakes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/chatGPTscreenshot.png&#34; alt=&#34;screengrab&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h3&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a software engineer &amp;lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &amp;gt; working at the edge of ChatGPT&amp;rsquo;s abilities).&lt;/p&gt;&#xA;&lt;h2 id=&#34;use-cases-im-not-ashamed-of&#34;&gt;Use-Cases I&amp;rsquo;m Not Ashamed Of&lt;/h2&gt;&#xA;&lt;h3 id=&#34;acronym-hunting&#34;&gt;Acronym hunting&lt;/h3&gt;&#xA;&lt;p&gt;Say I&amp;rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&amp;rsquo;t heard of. ctrl + c / ctrl + v -&amp;gt; ChatGPT! Since the context is already embedded in whatever I&amp;rsquo;m giving it, my anecdotal experience is that it does pretty decently defining terms (and I avoid the annoying thing of googling some obscure acronym and getting back some Realtor&amp;rsquo;s Association in Nevada that shares the acronym I&amp;rsquo;m hunting for).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/aihottakes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/chatGPTscreenshot.png&#34; alt=&#34;screengrab&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h3&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a software engineer &amp;lt; 1 year into my career. I use ChatGPT a lot, sometimes maybe too much or beyond its purposes (working at the edge of your abilities &amp;gt; working at the edge of ChatGPT&amp;rsquo;s abilities).&lt;/p&gt;&#xA;&lt;h2 id=&#34;use-cases-im-not-ashamed-of&#34;&gt;Use-Cases I&amp;rsquo;m Not Ashamed Of&lt;/h2&gt;&#xA;&lt;h3 id=&#34;acronym-hunting&#34;&gt;Acronym hunting&lt;/h3&gt;&#xA;&lt;p&gt;Say I&amp;rsquo;m reading a blogpost I found on hacker news and a paragraph or sentence mentions two or three acronyms I haven&amp;rsquo;t heard of. ctrl + c / ctrl + v -&amp;gt; ChatGPT! Since the context is already embedded in whatever I&amp;rsquo;m giving it, my anecdotal experience is that it does pretty decently defining terms (and I avoid the annoying thing of googling some obscure acronym and getting back some Realtor&amp;rsquo;s Association in Nevada that shares the acronym I&amp;rsquo;m hunting for).&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 Delights and Not So Delightfuls</title>
-      <link>https://jakesimonds.github.io/posts/2023/</link>
+      <link>http://localhost:1313/posts/2023/</link>
       <pubDate>Sat, 09 Dec 2023 18:51:40 -0500</pubDate>
-      <guid>https://jakesimonds.github.io/posts/2023/</guid>
+      <guid>http://localhost:1313/posts/2023/</guid>
       <description>&lt;h1 id=&#34;things-i-found-delightful--not-so-delightful--in-2023&#34;&gt;Things I found Delightful &amp;amp; Not-So-Delightful  in 2023&lt;/h1&gt;&#xA;&lt;p&gt;Year #2 of &amp;lsquo;getting into tech.&amp;rsquo; Feeling reflective, wanted to jot down some things that have brought me joy as well as a few things that just frustrated the hell out of me this year.&lt;/p&gt;&#xA;&lt;h1 id=&#34;delightful&#34;&gt;Delightful&lt;/h1&gt;&#xA;&lt;h3 id=&#34;linux-chromebook&#34;&gt;Linux Chromebook&lt;/h3&gt;&#xA;&lt;p&gt;Oh boy is linux fun! Bought a chromebook with ubuntu off a friend, and it has slowly become my primary personal machine. Trackpad sucks, bluetooth headphones sometimes don&amp;rsquo;t connect great (delay or just terribly quality). Other than that, it&amp;rsquo;s pretty sweet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dumb Electronics</title>
-      <link>https://jakesimonds.github.io/posts/electronics/</link>
+      <link>http://localhost:1313/posts/electronics/</link>
       <pubDate>Thu, 30 Nov 2023 20:42:41 -0500</pubDate>
-      <guid>https://jakesimonds.github.io/posts/electronics/</guid>
-      <description>&lt;p&gt;This summer started picking up electric oddities and toys at the goodwill. Had some fun taking them apart, learning a bit (though less than you might think) about electrics, and occasionally tried some weird stuff. If you&amp;rsquo;re in Portland ME and want to borrow either the camera or the keyboards for projects or fun, or collaborate on other similar stuff, be in touch!&lt;/p&gt;&#xA;&lt;h3 id=&#34;camera&#34;&gt;Camera&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/Camera.jpg&#34; alt=&#34;&amp;ldquo;case&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The case.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/PhotoCase.jpg&#34; alt=&#34;&amp;ldquo;camera&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Camera&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/electronics/</guid>
+      <description>&lt;p&gt;This summer started picking up electric oddities and toys at the goodwill. Had some fun taking them apart, learning a bit (though less than you might think) about electrics, and occasionally tried some weird stuff. If you&amp;rsquo;re in Portland ME and want to borrow either the camera or the keyboards for projects or fun, or collaborate on other similar stuff, be in touch!&lt;/p&gt;&#xA;&lt;h3 id=&#34;camera&#34;&gt;Camera&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/Camera.jpg&#34; alt=&#34;&amp;ldquo;case&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The case.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/PhotoCase.jpg&#34; alt=&#34;&amp;ldquo;camera&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Camera&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wordle Percentage Curiousity</title>
-      <link>https://jakesimonds.github.io/posts/wordle/</link>
+      <link>http://localhost:1313/posts/wordle/</link>
       <pubDate>Sun, 26 Nov 2023 10:20:02 -0500</pubDate>
-      <guid>https://jakesimonds.github.io/posts/wordle/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/ninetyNineWordle.png&#34; alt=&#34;&amp;ldquo;99 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Did you know that the &amp;lsquo;Percentage&amp;rsquo; on your wordle stats is simply the number you&amp;rsquo;ve done successfully, over the total number of attempts rounded to the nearest integer? So 198/199 = 99.4975ish, rounds down to 99.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/oneHundredWordle.png&#34; alt=&#34;&amp;ldquo;100 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While 199/200 = 99.5, rounds up to 100.&lt;/p&gt;&#xA;&lt;p&gt;I feel obligated to add: chasing this curiousity I cheated many times, by opening up a new browser and then continuing to guess until I knew I had the right word. Those two instances of getting it on the first guess were real, though. &amp;lsquo;Earth&amp;rsquo; and &amp;lsquo;Piano&amp;rsquo; (which are both semi-regular starting words, which I was delighted to have tried on the days that they were that day&amp;rsquo;s word).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/wordle/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/ninetyNineWordle.png&#34; alt=&#34;&amp;ldquo;99 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Did you know that the &amp;lsquo;Percentage&amp;rsquo; on your wordle stats is simply the number you&amp;rsquo;ve done successfully, over the total number of attempts rounded to the nearest integer? So 198/199 = 99.4975ish, rounds down to 99.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/oneHundredWordle.png&#34; alt=&#34;&amp;ldquo;100 percent&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While 199/200 = 99.5, rounds up to 100.&lt;/p&gt;&#xA;&lt;p&gt;I feel obligated to add: chasing this curiousity I cheated many times, by opening up a new browser and then continuing to guess until I knew I had the right word. Those two instances of getting it on the first guess were real, though. &amp;lsquo;Earth&amp;rsquo; and &amp;lsquo;Piano&amp;rsquo; (which are both semi-regular starting words, which I was delighted to have tried on the days that they were that day&amp;rsquo;s word).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github Annotated</title>
-      <link>https://jakesimonds.github.io/posts/github-annotated/</link>
+      <link>http://localhost:1313/posts/github-annotated/</link>
       <pubDate>Sun, 19 Nov 2023 12:21:40 -0500</pubDate>
-      <guid>https://jakesimonds.github.io/posts/github-annotated/</guid>
-      <description>&lt;h2 id=&#34;github-annotated&#34;&gt;Github Annotated&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/2021-github.png&#34; alt=&#34;&amp;ldquo;2021&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1&#34;&gt;1&lt;/h3&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t remember making a github account, but I&amp;rsquo;m not surprised that I did. Summer of 2021 I made a lot of accounts with various services trying to see if this &amp;lsquo;get into tech&amp;rsquo; idea held any water. Requested the data from my sister&amp;rsquo;s netflix at one point. Filled out a form to make a twitter bot. Watched some TED talks. Read a lot of marketing materials from Boot Camps. Couldn&amp;rsquo;t always distinguish educational materials from technical documentation from marketing materials.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/github-annotated/</guid>
+      <description>&lt;h2 id=&#34;github-annotated&#34;&gt;Github Annotated&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/2021-github.png&#34; alt=&#34;&amp;ldquo;2021&amp;rdquo;&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1&#34;&gt;1&lt;/h3&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t remember making a github account, but I&amp;rsquo;m not surprised that I did. Summer of 2021 I made a lot of accounts with various services trying to see if this &amp;lsquo;get into tech&amp;rsquo; idea held any water. Requested the data from my sister&amp;rsquo;s netflix at one point. Filled out a form to make a twitter bot. Watched some TED talks. Read a lot of marketing materials from Boot Camps. Couldn&amp;rsquo;t always distinguish educational materials from technical documentation from marketing materials.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I made this site</title>
-      <link>https://jakesimonds.github.io/posts/how-i-made-it/</link>
+      <link>http://localhost:1313/posts/how-i-made-it/</link>
       <pubDate>Sun, 22 Oct 2023 12:21:09 -0400</pubDate>
-      <guid>https://jakesimonds.github.io/posts/how-i-made-it/</guid>
+      <guid>http://localhost:1313/posts/how-i-made-it/</guid>
       <description>&lt;h2 id=&#34;what-it-is&#34;&gt;What it is&lt;/h2&gt;&#xA;&lt;p&gt;Made with a framework called &amp;lsquo;Hugo,&amp;rsquo; and specifically using a theme called &amp;lsquo;paper.&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;I heard about it on a &lt;a href=&#34;https://www.youtube.com/watch?v=0RKpf3rK57I&#34;&gt;youtube video&lt;/a&gt;. One of the comments, still there on the video as of 11/19/23, says: &amp;ldquo;Hugo is the back-end developer&amp;rsquo;s best friend for making front-ends.&amp;rdquo; That pretty much sold me.&lt;/p&gt;&#xA;&lt;p&gt;It took me longer than I thought it would to get what I have today, and even this is less functionality-wise than my original ambitions. I was and sort of still am a little mystified at the relationships between the framework, and the theme, and my configs, and the universe. What&amp;rsquo;s cool is right now I&amp;rsquo;m writing this document in an .md file. Big fan of .md files.&lt;/p&gt;</description>
     </item>
   </channel>

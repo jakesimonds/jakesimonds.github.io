@@ -20,16 +20,27 @@
   />
 
   
-  <title>Projects-</title>
+  <title>WikiSurfer-</title>
 
   
   <meta name="theme-color" />
 
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
+  <meta name="description" content="WikiSurfer
+
+WikiSurfer is an LLM sideproject where:
+
+you&rsquo;re not looking at or reading slop
+model (gpt4.1-nano) is small, dumb, cheap, energy-effiecient
+navigation keys let you surf in the direction of adjectives (so your keypress of &lsquo;cat-like&rsquo; means: model picks the most cat-like link on the page)
+
+why&rsquo;d you make this?
+I made this because:
+
+gpt4.1-nano is just amazing and I wanted to build something that wouldn&rsquo;t be possible without it
+I&rsquo;m very curious what LLM interfaces are gonna turn into. We can&rsquo;t keep chatting forever.
+
+A new level of laziness unlocked Vibe-coding this
+" />
   <meta name="author" content="Jake Simonds" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -39,7 +50,11 @@
 
   <link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" />
 
-  
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
 
   
   <link
@@ -155,15 +170,35 @@
 <main
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     >
+<article>
+    <h1>WikiSurfer</h1>
+    <time>July 31, 2025</time>
+    <h1 id="wikisurfer">WikiSurfer</h1>
+<p><img src="/img/wikisurfer_devtools.png" alt="WikiSurfer with DevTools"></p>
+<p><a href="https://wikisurfer.latenthomer.com">WikiSurfer</a> is an LLM sideproject where:</p>
+<ul>
+<li>you&rsquo;re not looking at or reading slop</li>
+<li>model (gpt4.1-nano) is small, dumb, cheap, energy-effiecient</li>
+<li>navigation keys let you surf in the direction of adjectives (so your keypress of &lsquo;cat-like&rsquo; means: model picks the most cat-like link on the page)</li>
+</ul>
+<h2 id="whyd-you-make-this">why&rsquo;d you make this?</h2>
+<p>I made this because:</p>
+<ul>
+<li>gpt4.1-nano is just amazing and I wanted to build something that wouldn&rsquo;t be possible without it</li>
+<li>I&rsquo;m very curious what LLM interfaces are gonna turn into. We can&rsquo;t keep chatting forever.</li>
+</ul>
+<h2 id="a-new-level-of-laziness-unlocked-vibe-coding-this">A new level of laziness unlocked Vibe-coding this</h2>
+<p><img src="/img/wikisurfer_navigation_overlay.png" alt="WikiSurfer in action"></p>
+<p>For this project, in a first for me I did the UI flow by just taking screenshots and giving them back to the model over and over again. This is example of that.</p>
+<h2 id="wikipedia-is-incredible">Wikipedia is incredible</h2>
+<p><img src="/img/wikisurfer_wikipedia_page.png" alt="Wikipedia page example"></p>
+<p>One fun thing about this project was using it to explore wikipedia. IMO the Borders guy should have a more substantial page!</p>
 
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Auto-Journal</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Nov 24, 2023</time
-  >
-  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/projects/autojournal/"
-    >Auto-Journal</a
-  >
-</section></main><footer
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
   <div class="mr-auto">&copy;2025<a class="link" href="http://localhost:1313/"></a></div>
