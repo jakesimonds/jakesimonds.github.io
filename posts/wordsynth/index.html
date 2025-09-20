@@ -1,16 +1,235 @@
-<!doctype html><html class="not-ready lg:text-base" style=--bg:#faf8f1 lang=en-us dir=ltr><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>WordSynth-</title>
-<meta name=theme-color><meta name=description content="Link: http://wordsynth.latenthomer.com/
+<!doctype html>
 
-An example of the kinds of shenanigans you can get up to with WordSynth. Note &lsquo;ch&rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &lsquo;ch&rsquo; is boosted enough to make the LLM&mldr;act funny
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>WordSynth-</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Link: http://wordsynth.latenthomer.com/
+
+An example of the kinds of shenanigans you can get up to with WordSynth. Note &lsquo;ch&rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &lsquo;ch&rsquo; is boosted enough to make the LLM&hellip;act funny
 What is it?
-Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed."><meta name=author content="Jake Simonds"><link rel="preload stylesheet" as=style href=https://jakesimonds.github.io/main.min.css><link rel=preload as=image href=https://jakesimonds.github.io/theme.png><link rel=preload as=image href=https://imgur.com/yMxh4fk.jpg><link rel=preload as=image href=https://jakesimonds.github.io/github.svg><link rel=preload as=image href=https://jakesimonds.github.io/linkedin.svg><script defer src=https://jakesimonds.github.io/highlight.min.js onload=hljs.initHighlightingOnLoad()></script><link rel=icon href=https://jakesimonds.github.io/favicon.ico><link rel=apple-touch-icon href=https://jakesimonds.github.io/apple-touch-icon.png><meta name=generator content="Hugo 0.145.0"><meta itemprop=name content="WordSynth"><meta itemprop=description content="Link: http://wordsynth.latenthomer.com/
+Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed." />
+  <meta name="author" content="Jake Simonds" /><link rel="preload stylesheet" as="style" href="https://jakesimonds.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/theme.png" />
+
+  <link rel="preload" as="image" href="https://imgur.com/yMxh4fk.jpg" />
+
+  <link rel="preload" as="image" href="https://jakesimonds.github.io/github.svg" /><link rel="preload" as="image" href="https://jakesimonds.github.io/linkedin.svg" />
+
+  <script
+    defer
+    src="https://jakesimonds.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="https://jakesimonds.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://jakesimonds.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="WordSynth">
+  <meta itemprop="description" content="Link: http://wordsynth.latenthomer.com/
 An example of the kinds of shenanigans you can get up to with WordSynth. Note ‘ch’ is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for ‘ch’ is boosted enough to make the LLM…act funny
-What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed."><meta itemprop=datePublished content="2025-06-07T11:59:35-04:00"><meta itemprop=dateModified content="2025-06-07T11:59:35-04:00"><meta itemprop=wordCount content="628"><meta property="og:url" content="https://jakesimonds.github.io/posts/wordsynth/"><meta property="og:title" content="WordSynth"><meta property="og:description" content="Link: http://wordsynth.latenthomer.com/
+What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.">
+  <meta itemprop="datePublished" content="2025-06-07T11:59:35-04:00">
+  <meta itemprop="dateModified" content="2025-06-07T11:59:35-04:00">
+  <meta itemprop="wordCount" content="628"><meta property="og:url" content="https://jakesimonds.github.io/posts/wordsynth/">
+  <meta property="og:title" content="WordSynth">
+  <meta property="og:description" content="Link: http://wordsynth.latenthomer.com/
 An example of the kinds of shenanigans you can get up to with WordSynth. Note ‘ch’ is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for ‘ch’ is boosted enough to make the LLM…act funny
-What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-06-07T11:59:35-04:00"><meta property="article:modified_time" content="2025-06-07T11:59:35-04:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="WordSynth"><meta name=twitter:description content="Link: http://wordsynth.latenthomer.com/
+What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-07T11:59:35-04:00">
+    <meta property="article:modified_time" content="2025-06-07T11:59:35-04:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="WordSynth">
+  <meta name="twitter:description" content="Link: http://wordsynth.latenthomer.com/
 An example of the kinds of shenanigans you can get up to with WordSynth. Note ‘ch’ is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for ‘ch’ is boosted enough to make the LLM…act funny
-What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed."><link rel=canonical href=https://jakesimonds.github.io/posts/wordsynth/></head><body class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"><header class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"><div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto"><a class="-translate-y-[1px] text-2xl font-medium" href=https://jakesimonds.github.io/></a><div class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]" role=button aria-label=Dark></div></div><div class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8" role=button aria-label=Menu></div><script>const htmlClass=document.documentElement.classList;setTimeout(()=>{htmlClass.remove("not-ready")},10);const btnMenu=document.querySelector(".btn-menu");btnMenu.addEventListener("click",()=>{htmlClass.toggle("open")});const metaTheme=document.querySelector('meta[name="theme-color"]'),lightBg="#faf8f1".replace(/"/g,""),setDark=e=>{metaTheme.setAttribute("content",e?"#000":lightBg),htmlClass[e?"add":"remove"]("dark"),localStorage.setItem("dark",e)},darkScheme=window.matchMedia("(prefers-color-scheme: dark)");if(htmlClass.contains("dark"))setDark(!0);else{const e=localStorage.getItem("dark");setDark(e?e==="true":darkScheme.matches)}darkScheme.addEventListener("change",e=>{setDark(e.matches)});const btnDark=document.querySelector(".btn-dark");btnDark.addEventListener("click",()=>{setDark(localStorage.getItem("dark")!=="true")})</script><div class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"><nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"><a class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal" href=/>Home</a><a class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal" href=/about/>About</a></nav><nav class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"><a class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style=--url:url(./github.svg) href=https://github.com/jakesimonds target=_blank rel=me>github</a>
-<a class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style=--url:url(./linkedin.svg) href=https://linkedin.com/in/jake-simonds target=_blank rel=me>linkedin</a></nav></div></header><main class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"><article><h1>WordSynth</h1><time>June 7, 2025</time><p>Link: <a href=http://wordsynth.latenthomer.com/>http://wordsynth.latenthomer.com/</a></p><p><img src=/img/wordSynthCh.png alt=jokeScreenshot>
-<em>An example of the kinds of shenanigans you can get up to with WordSynth. Note &lsquo;ch&rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &lsquo;ch&rsquo; is boosted enough to make the LLM&mldr;act funny</em></p><h1 id=what-is-it>What is it?</h1><p>Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.</p><p>So you pick one prompt, and then you just kinda watch it generate over and over again and see how the different sampling parameters alter generation.</p><h1 id=whyd-you-make-it>Why&rsquo;d you make it?</h1><p>I have strong opinions, and one strong opinion I have is that when you chat with an LLM, you enter a headspace of &lsquo;having a conversation&rsquo; which is very understandable, but gets you in a headspace of treating the LLM like a person, which it isn&rsquo;t.</p><p>So this was an attempt to:</p><ul><li>1: make an LLM app that doesn&rsquo;t have a chat interface</li><li>2: see how far I could get doing roll-your-own inference and deployment</li><li>3: gain some intuition around sampling</li></ul><h1 id=surprisesdelights>Surprises/Delights</h1><p>It was delightful & remains delightful to see the probabilities on the words, and you can almost &lsquo;see&rsquo; the LLM decide what it&rsquo;s going to say. An example of this is if you use the joke prompt, you can see the probabilities go high (tokens turn green) when it starts telling a joke, I think because much like me when I am telling a joke or anecdote I&rsquo;ve told before, once I&rsquo;m midway thru I kinda know where I&rsquo;m going.</p><p><img src=/img/jokeScreenshot.png alt=jokeScreenshot>
-<em>Note how the intro is different in these two generations but it finds the same joke</em></p><p>It was surprising to see the output become deterministic or near deterministic when any of Temperature, top_p or top_k were super low. Deterministic obviously you just see the same thing over and over again. But near deterministic it was interesting to just see almost a tree-structure (especially with top_k set to 2 or 3) of how the first token would be one of a couple options, which would then lead to a second token of a couple options, etc.</p><p>The Hot Token Boost was my attempt to just jump into the logits and see how far a very simple idea (that idea being: can I boost one token artificially?) could get me. I was kinda hoping to almost make the model use the Hot Token unnaturally. Which it does, but you have to fuss with the hot token boost because if its too high, you just get that token over and over again, but just a little bit lower than that and its almost ignored.</p><h1 id=frustrations>Frustrations</h1><p>I kind of feel like I still don&rsquo;t understand sampling in a deep sense even after implementing this. So that&rsquo;s a frustration.</p><p>Also not a huge frustration but&mldr;this project if anything made LLMs as a technology feel more fragile, made me feel all the more surprised that any of this works at all.</p><p>It&rsquo;s slow! On my local macbook (M4 macbook, mps, 24 GB memory) it&rsquo;s wicked speedy, but I just kind of naively put it in a EC2 and its kinda slow enough that it&rsquo;s less fun to mess with, since you don&rsquo;t get the immediate satisfaction of adjusting the sliders and just seeing the instant results.</p><p>And I don&rsquo;t know naively how to make it much faster because I know there&rsquo;s 10,000 inference providers out there, but I need one that&rsquo;ll let me use llama.cpp in the weird way I&rsquo;m using it. If anybody reading this knows how I can easily use a specialized inference provider I&rsquo;m all ears! Otherwise probably going to take this site down in a bit (sorry if you&rsquo;re reading this and that&rsquo;s already happened).</p></article><script src=https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js></script><script src=https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js></script></main><footer class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"><div class=mr-auto>&copy;2025<a class=link href=https://jakesimonds.github.io/></a></div><a class="link mx-6" href=https://gohugo.io/ rel=noopener target=_blank>powered by hugo️️</a>️
-<a class=link href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>hugo-paper</a></footer></body></html>
+What is it? Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.">
+
+  <link rel="canonical" href="https://jakesimonds.github.io/posts/wordsynth/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://jakesimonds.github.io/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/jakesimonds"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/jake-simonds"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+<article>
+    <h1>WordSynth</h1>
+    <time>June 7, 2025</time>
+    <p>Link: <a href="http://wordsynth.latenthomer.com/">http://wordsynth.latenthomer.com/</a></p>
+<p><img src="/img/wordSynthCh.png" alt="jokeScreenshot">
+<em>An example of the kinds of shenanigans you can get up to with WordSynth. Note &lsquo;ch&rsquo; is the Hot Token and it has been boosted to 2.3, meaning the raw logit probability for &lsquo;ch&rsquo; is boosted enough to make the LLM&hellip;act funny</em></p>
+<h1 id="what-is-it">What is it?</h1>
+<p>Word Synth is llama3.2-1b, so a really tiny LLM, with inference provided by llama.cpp, and the sampling parameters that were relatively straightforward to expose are exposed.</p>
+<p>So you pick one prompt, and then you just kinda watch it generate over and over again and see how the different sampling parameters alter generation.</p>
+<h1 id="whyd-you-make-it">Why&rsquo;d you make it?</h1>
+<p>I have strong opinions, and one strong opinion I have is that when you chat with an LLM, you enter a headspace of &lsquo;having a conversation&rsquo; which is very understandable, but gets you in a headspace of treating the LLM like a person, which it isn&rsquo;t.</p>
+<p>So this was an attempt to:</p>
+<ul>
+<li>1: make an LLM app that doesn&rsquo;t have a chat interface</li>
+<li>2: see how far I could get doing roll-your-own inference and deployment</li>
+<li>3: gain some intuition around sampling</li>
+</ul>
+<h1 id="surprisesdelights">Surprises/Delights</h1>
+<p>It was delightful &amp; remains delightful to see the probabilities on the words, and you can almost &lsquo;see&rsquo; the LLM decide what it&rsquo;s going to say. An example of this is if you use the joke prompt, you can see the probabilities go high (tokens turn green) when it starts telling a joke, I think because much like me when I am telling a joke or anecdote I&rsquo;ve told before, once I&rsquo;m midway thru I kinda know where I&rsquo;m going.</p>
+<p><img src="/img/jokeScreenshot.png" alt="jokeScreenshot">
+<em>Note how the intro is different in these two generations but it finds the same joke</em></p>
+<p>It was surprising to see the output become deterministic or near deterministic when any of Temperature, top_p or top_k were super low. Deterministic obviously you just see the same thing over and over again. But near deterministic it was interesting to just see almost a tree-structure (especially with top_k set to 2 or 3) of how the first token would be one of a couple options, which would then lead to a second token of a couple options, etc.</p>
+<p>The Hot Token Boost was my attempt to just jump into the logits and see how far a very simple idea (that idea being: can I boost one token artificially?) could get me. I was kinda hoping to almost make the model use the Hot Token unnaturally. Which it does, but you have to fuss with the hot token boost because if its too high, you just get that token over and over again, but just a little bit lower than that and its almost ignored.</p>
+<h1 id="frustrations">Frustrations</h1>
+<p>I kind of feel like I still don&rsquo;t understand sampling in a deep sense even after implementing this. So that&rsquo;s a frustration.</p>
+<p>Also not a huge frustration but&hellip;this project if anything made LLMs as a technology feel more fragile, made me feel all the more surprised that any of this works at all.</p>
+<p>It&rsquo;s slow! On my local macbook (M4 macbook, mps, 24 GB memory) it&rsquo;s wicked speedy, but I just kind of naively put it in a EC2 and its kinda slow enough that it&rsquo;s less fun to mess with, since you don&rsquo;t get the immediate satisfaction of adjusting the sliders and just seeing the instant results.</p>
+<p>And I don&rsquo;t know naively how to make it much faster because I know there&rsquo;s 10,000 inference providers out there, but I need one that&rsquo;ll let me use llama.cpp in the weird way I&rsquo;m using it. If anybody reading this knows how I can easily use a specialized inference provider I&rsquo;m all ears! Otherwise probably going to take this site down in a bit (sorry if you&rsquo;re reading this and that&rsquo;s already happened).</p>
+
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025<a class="link" href="https://jakesimonds.github.io/"></a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
