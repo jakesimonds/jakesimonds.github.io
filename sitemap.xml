@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jakesimonds.github.io/posts/llms-jo-ha-kyu/</loc>
-    <lastmod>2025-09-10T18:22:23-04:00</lastmod>
-  </url><url>
     <loc>https://jakesimonds.github.io/posts/</loc>
+    <lastmod>2025-09-24T11:41:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/u-do-u/</loc>
+    <lastmod>2025-09-24T11:41:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jakesimonds.github.io/posts/llms-jo-ha-kyu/</loc>
     <lastmod>2025-09-10T18:22:23-04:00</lastmod>
   </url><url>
     <loc>https://jakesimonds.github.io/posts/wikisurfer/</loc>
