@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Sep 2025 11:41:28 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 18:52:23 -0400</lastBuildDate>
     <atom:link href="https://jakesimonds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Omarchi</title>
+      <link>https://jakesimonds.github.io/posts/omarchi/</link>
+      <pubDate>Fri, 26 Sep 2025 18:52:23 -0400</pubDate>
+      <guid>https://jakesimonds.github.io/posts/omarchi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://jakesimonds.github.io/img/omarchy.png&#34; alt=&#34;screenshot!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Just configuring things on new OS)&lt;/p&gt;&#xA;&lt;p&gt;Quick notes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Omarchi was very easy to install&lt;/li&gt;&#xA;&lt;li&gt;fun so far, haven&amp;rsquo;t hit many foot-guns&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>u-do-u: volition pump chome extension</title>
       <link>https://jakesimonds.github.io/posts/u-do-u/</link>
