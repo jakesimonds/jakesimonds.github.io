@@ -1,0 +1,103 @@
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: var(--bg, #faf8f1);
+    border-radius: 8px;
+    padding: 0; /* Remove padding since React component will handle it */
+    max-width: 600px; /* Slightly larger for React content */
+    width: 90%;
+    max-height: 80vh;
+    overflow: hidden; /* Let React component handle scrolling */
+    position: relative;
+    transform: scale(0.7);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s ease;
+    z-index: 10;
+}
+
+.modal-close:hover {
+    color: #000;
+}
+
+.dark .modal-content {
+    background: #1a1a1a;
+    color: white;
+}
+
+.dark .modal-close {
+    color: #ccc;
+}
+
+.dark .modal-close:hover {
+    color: white;
+}
+
+/* React content container */
+.modal-react-content {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+}
+
+/* Loading state for React component */
+.modal-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.dark .modal-loading {
+    color: #ccc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 1rem;
+        max-width: calc(100% - 2rem);
+    }
+    
+    .modal-close {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+}
